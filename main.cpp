@@ -101,7 +101,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass our oneWire reference to Dallas Temperature. 
 DallasTemperature sensors(&oneWire);
 
-
+//pin 35 for tds
 
 void setup() {
   Serial.begin(9600);
@@ -140,11 +140,16 @@ bool polltempSensor() {
   return true;
 }
 
-//TODO:
-// implement TDS sensor polling
-bool pollSensor3() {
+
+bool pollTDSSensor() {
+  float tdsValue = 0; // Simulated TDS value
+  // Replace with actual TDS sensor reading logic     
+  tdsValue = analogRead(35); // Use the correct ADC pin for TDS sensor
+  Serial.print("TDS Value: ");
+  Serial.print(tdsValue, 0);
+  Serial.println(" ppm");
+  // Simulate a delay for TDS sensor reading
   delay(100);
-  Serial.println("Sensor 3 OK");
   return true;
 }
 
@@ -162,8 +167,8 @@ void loop() {
   }
 
   // Poll sensor 3
-  if (!pollSensor3()) {
-    Serial.println("Sensor 3 failed!");
+  if (!pollTDSSensor()) {
+    Serial.println("TDS sensor failed!");
   }
 
   // Feed the watchdog if everything is ok
