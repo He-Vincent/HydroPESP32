@@ -102,6 +102,11 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 //pin 35 for tds
+int tdsPin = 35; // ADC pin for TDS sensor
+int phPin = 34; // ADC pin for pH sensor
+
+float temperature = 25.0;  // Replace with real temp if available
+
 
 void setup() {
   Serial.begin(9600);
@@ -121,12 +126,32 @@ void setup() {
 // ph sensor
 
 bool pollpHSensor() {
-  delay(100);
-  int raw = analogRead(34); // Use the correct ADC pin!
-  float voltage = raw * (3.3 / 4095.0);
-  float pH = -4.84 * voltage + 19.17;
-  Serial.print("pH Value: ");
+  // int raw = analogRead(phPin); // Use the correct ADC pin!
+  // float voltage = raw * (3.3 / 4095.0);
+  // float pH = -4.84 * voltage + 19.17;
+  // Serial.print("pH Value: ");
+  // Serial.println(pH, 2);
+
+  
+  // Step 2: Read voltage
+  int raw = analogRead(phPin);
+  float voltage = raw * (3.3 / 4095.0); // for ESP32
+
+  // Step 3: Adjust slope with temperature
+  float slope25 = -4.84; // calculated from your calibration
+  float slopeT = slope25 * ((temperature + 273.15) / 298.15);
+
+  // Step 4: Calculate pH
+  float pH = slopeT * (voltage - 2.5) + 6.86;
+
+  // Output
+  Serial.print(" | Voltage (V): ");
+  Serial.print(voltage, 3);
+  Serial.print(" | pH: ");
   Serial.println(pH, 2);
+  delay(100);
+
+
   return true;
 
 }
@@ -136,19 +161,25 @@ bool polltempSensor() {
   float currentTemp = sensors.getTempCByIndex(0);
   Serial.print("Celsius temperature: ");
   Serial.println(currentTemp);
+  temperature = currentTemp; // Update global temperature variable
   delay(100);
   return true;
 }
 
 
 bool pollTDSSensor() {
-  float tdsValue = 0; // Simulated TDS value
-  // Replace with actual TDS sensor reading logic     
-  tdsValue = analogRead(35); // Use the correct ADC pin for TDS sensor
-  Serial.print("TDS Value: ");
-  Serial.print(tdsValue, 0);
-  Serial.println(" ppm");
-  // Simulate a delay for TDS sensor reading
+  int analogValue = analogRead(tdsPin);  // ADC pin
+  float voltage = analogValue * (3.3 / 4095.0);
+  float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
+  float compensationVoltage = voltage / compensationCoefficient;
+
+  float tdsValue = (133.42 * pow(compensationVoltage, 3)
+                  - 255.86 * pow(compensationVoltage, 2)
+                  + 857.39 * compensationVoltage) * 0.5;
+
+  Serial.print("TDS (ppm): ");
+  Serial.println(tdsValue);
+
   delay(100);
   return true;
 }
@@ -156,15 +187,17 @@ bool pollTDSSensor() {
 
 void loop() {
 
+    // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
+    if (!polltempSensor()) {
+      Serial.println("temp sensor failed!");
+    }
+  
+
   // Poll ph sensor
   if (!pollpHSensor()) {
     Serial.println("ph sensor failed!");
   }
 
-  // Poll temp sensor
-  if (!polltempSensor()) {
-    Serial.println("temp sensor failed!");
-  }
 
   // Poll sensor 3
   if (!pollTDSSensor()) {
