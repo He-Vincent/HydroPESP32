@@ -86,6 +86,12 @@
 // }
 
 
+//TODO:
+//1. fix calibration of Ph
+//2. Median Filter TDS
+//3. Median Filter PH
+
+
 #include <Arduino.h>
 #include <esp_task_wdt.h>
 #define WDT_TIMEOUT 5  
@@ -107,9 +113,17 @@ int phPin = 34; // ADC pin for pH sensor
 
 float temperature = 25.0;  // Replace with real temp if available
 
+float calibration_value = 21.34 - 0.7 + 0.46;
+int phval = 0; 
+unsigned long int avgval; 
+int buffer_arr[20],temp;
+ 
+float ph_act;
+
 
 void setup() {
   Serial.begin(9600);
+
 
   // Initialize watchdog for the current task (loopTask)
   // 1st param = timeout, 2nd = panic on timeout?, 3rd = reset system?
@@ -126,32 +140,34 @@ void setup() {
 // ph sensor
 
 bool pollpHSensor() {
-  // int raw = analogRead(phPin); // Use the correct ADC pin!
-  // float voltage = raw * (3.3 / 4095.0);
-  // float pH = -4.84 * voltage + 19.17;
-  // Serial.print("pH Value: ");
-  // Serial.println(pH, 2);
-
+  for(int i=0;i<20;i++) 
+  { 
+    buffer_arr[i]=analogRead(phPin);
+    delay(30);
+  }
+  for(int i=0;i<19;i++)
+  {
+    for(int j=i+1;j<20;j++)
+    {
+      if(buffer_arr[i]>buffer_arr[j])
+      {
+        temp=buffer_arr[i];
+        buffer_arr[i]=buffer_arr[j];
+        buffer_arr[j]=temp;
+      }
+    }
+  }
+  avgval=0;
+  for(int i=12;i<18;i++) {
+    avgval+=buffer_arr[i];
+  }
+  float volt=(float)avgval*((3.3 / 4095.0))/6.0; 
+   ph_act = -5.70 * volt + calibration_value;
   
-  // Step 2: Read voltage
-  int raw = analogRead(phPin);
-  float voltage = raw * (3.3 / 4095.0); // for ESP32
+  Serial.print("pH Val: ");
+  Serial.println(ph_act);
 
-  // Step 3: Adjust slope with temperature
-  float slope25 = -4.84; // calculated from your calibration
-  float slopeT = slope25 * ((temperature + 273.15) / 298.15);
-
-  // Step 4: Calculate pH
-  float pH = slopeT * (voltage - 2.5) + 6.86;
-
-  // Output
-  Serial.print(" | Voltage (V): ");
-  Serial.print(voltage, 3);
-  Serial.print(" | pH: ");
-  Serial.println(pH, 2);
   delay(100);
-
-
   return true;
 
 }
@@ -186,7 +202,6 @@ bool pollTDSSensor() {
 
 
 void loop() {
-
     // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
     if (!polltempSensor()) {
       Serial.println("temp sensor failed!");
