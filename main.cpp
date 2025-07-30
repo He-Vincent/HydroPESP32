@@ -107,37 +107,76 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass our oneWire reference to Dallas Temperature. 
 DallasTemperature sensors(&oneWire);
 
-//pin 35 for tds
-int tdsPin = 35; // ADC pin for TDS sensor
+
+int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 
 float temperature = 25.0;  // Replace with real temp if available
 
 float calibration_value = 21.34 - 0.7 + 0.46;
-int phval = 0; 
-unsigned long int avgval; 
-int buffer_arr[20],temp;
+float avgval; 
+float buffer_arr[20],temp;
  
 float ph_act;
 
+float beginningTDS = 0.0; // Initial TDS value
+float tdsValue = 0.0; // Current TDS value
 
-void setup() {
-  Serial.begin(9600);
+float tdsRequired = 0.0; // sum of beginning + TDS solution PPM based on growth 
+// need tds of water + solution PPM based on growth stage
+// could hardcore water ppm
 
 
-  // Initialize watchdog for the current task (loopTask)
-  // 1st param = timeout, 2nd = panic on timeout?, 3rd = reset system?
-  esp_task_wdt_init(WDT_TIMEOUT, true); 
-  esp_task_wdt_add(NULL);  // Add current thread (loopTask) to WDT
+// pumps
 
-  sensors.begin();
-  // Init sensors here
-  Serial.println("Setup complete.");
+int tdsPumpIn1Pin = 22;
+int tdsPumpIn2Pin = 21;
+int tdsPumpEnPin = 23;
+
+
+
+// pumps
+
+
+
+// Function prototypes
+
+//median filter
+#define NUM_SAMPLES 10
+
+int readings[NUM_SAMPLES];
+
+float getMedianReading(int sensorPin) {
+  // Fill buffer with samples
+  for (int i = 0; i < NUM_SAMPLES; i++) {
+    readings[i] = analogRead(sensorPin);
+    delay(10); // Short delay between readings
+  }
+
+  // Copy and sort the buffer
+  int sorted[NUM_SAMPLES];
+  memcpy(sorted, readings, sizeof(readings));
+
+  // Simple bubble sort
+  for (int i = 0; i < NUM_SAMPLES - 1; i++) {
+    for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
+      if (sorted[j] > sorted[j + 1]) {
+        int temp = sorted[j];
+        sorted[j] = sorted[j + 1];
+        sorted[j + 1] = temp;
+      }
+    }
+  }
+
+  // Return median
+  if (NUM_SAMPLES % 2 == 0) {
+    return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
+  } else {
+    return sorted[NUM_SAMPLES/2];
+  }
 }
 
 
-// Simulated sensor functions
-// ph sensor
 
 bool pollpHSensor() {
   for(int i=0;i<20;i++) 
@@ -178,27 +217,128 @@ bool polltempSensor() {
   Serial.print("Celsius temperature: ");
   Serial.println(currentTemp);
   temperature = currentTemp; // Update global temperature variable
+
+ 
   delay(100);
   return true;
 }
-
+void runTDSPump(){
+  analogWrite(tdsPumpEnPin, 255); // Enable pump
+  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+  digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
+}
 
 bool pollTDSSensor() {
-  int analogValue = analogRead(tdsPin);  // ADC pin
+  float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
   float voltage = analogValue * (3.3 / 4095.0);
+  Serial.print("Raw ADC: ");
+  Serial.print(analogValue);
+  Serial.print("  Voltage: ");
+  Serial.println(voltage, 3);
+
+  
+
+
+
   float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
   float compensationVoltage = voltage / compensationCoefficient;
 
-  float tdsValue = (133.42 * pow(compensationVoltage, 3)
+  tdsValue = (133.42 * pow(compensationVoltage, 3)
                   - 255.86 * pow(compensationVoltage, 2)
                   + 857.39 * compensationVoltage) * 0.5;
+
+  Serial.print("required tds");
+  Serial.println(tdsRequired);
 
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
 
+  if (tdsValue < tdsRequired) {
+    // run pump 
+    runTDSPump();
+  }
+
   delay(100);
   return true;
 }
+
+
+
+typedef enum {
+  SEEDLING,
+  EARLY_GROWTH,
+  LATE_GROWTH,
+} GrowState;
+
+float solutionPPM = 0.0;
+
+GrowState currentState = SEEDLING; // Initial state
+
+float ppmTapWater = 6.0; // PPM of tap water from my house
+
+
+
+
+void setup() {
+  //pinmode for tds pump
+  pinMode(tdsPumpIn1Pin, OUTPUT);
+  pinMode(tdsPumpIn2Pin, OUTPUT);
+  pinMode(tdsPumpEnPin, OUTPUT);
+
+  //pinmode for ph pump
+
+  // Turn off motors - Initial state
+  digitalWrite(tdsPumpIn1Pin, LOW);
+  digitalWrite(tdsPumpIn2Pin, LOW);
+
+
+  Serial.begin(9600);
+
+
+  
+
+  sensors.begin();
+  // Init sensors here
+
+
+  // check the tds here in the beginning and store
+  
+  // for(int i = 0; i < 10; i++) {
+  //   pollTDSSensor(); // Get initial TDS value
+  //   beginningTDS = tdsValue; // Stores initial TDS value
+   
+  //   delay(1000);
+
+
+  // }
+
+  //choose the proper solution PPM based on the current growth stage
+  // based on General Hydroponics FloraNova Grow nutrient solution
+  switch(currentState) {
+    case SEEDLING:
+      solutionPPM = 500; // PPM for seedling stage, 0.5mL/L
+      break;
+    case EARLY_GROWTH:
+      solutionPPM = 1250; // PPM for early growth stage, 1.25mL/L
+      break;
+    case LATE_GROWTH:
+      solutionPPM = 2500; // PPM for late growth stage, 2.5mL/L
+      break;
+  }
+
+
+  tdsRequired = ppmTapWater + solutionPPM; // Calculate required TDS based on initial TDS and growth stage
+  Serial.print("Required TDS: ");
+  Serial.println(tdsRequired);
+  
+  // Initialize watchdog for the current task (loopTask)
+  // 1st param = timeout, 2nd = panic on timeout?, 3rd = reset system?
+  esp_task_wdt_init(WDT_TIMEOUT, true); 
+  esp_task_wdt_add(NULL);  // Add current thread (loopTask) to WDT
+  Serial.println("Setup complete.");
+}
+
+
 
 
 void loop() {
@@ -214,7 +354,7 @@ void loop() {
   }
 
 
-  // Poll sensor 3
+  // // Poll sensor 3
   if (!pollTDSSensor()) {
     Serial.println("TDS sensor failed!");
   }
