@@ -88,12 +88,13 @@
 
 //TODO:
 //1. fix calibration of Ph
+//2. now none of the pumps run, why? print debug .and debug.
 
 
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
-#define WDT_TIMEOUT 10 
+#define WDT_TIMEOUT 20
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -124,6 +125,8 @@ float tdsValue = 0.0; // Current TDS value
 float tdsRequired = 0.0; // sum of beginning + TDS solution PPM based on growth 
 // need tds of water + solution PPM based on growth stage
 // could hardcore water ppm
+
+float phRequired = 6.0;
 
 
 // pumps 
@@ -186,6 +189,18 @@ float getMedianReading(int sensorPin) {
 }
 
 
+void runPHPump(){
+  analogWrite(phPumpEnPin, 255); // Enable pump
+  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+  digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
+}
+
+void stopPHPump() {
+  analogWrite(phPumpEnPin, 0); // Disable pump
+  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+  digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
+}
+
 
 bool pollpHSensor() {
   // for(int i=0;i<20;i++) 
@@ -220,6 +235,12 @@ bool pollpHSensor() {
   // Serial.println(volt, 3);
   Serial.print("pH Val: ");
   Serial.println(ph_act);
+
+  if (ph_act > phRequired) {
+    runPHPump(); // Run pH down pump
+    delay(5000); // Run pump for 5 seconds
+    stopPHPump(); // Stop pump after adjusting pH
+  }
 
   delay(100);
   return true;
