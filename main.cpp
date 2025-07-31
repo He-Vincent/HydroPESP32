@@ -88,13 +88,12 @@
 
 //TODO:
 //1. fix calibration of Ph
-//2. Median Filter TDS
-//3. Median Filter PH
+
 
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
-#define WDT_TIMEOUT 5  
+#define WDT_TIMEOUT 10 
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -127,11 +126,21 @@ float tdsRequired = 0.0; // sum of beginning + TDS solution PPM based on growth
 // could hardcore water ppm
 
 
-// pumps
+// pumps 
+//red to out1, out3
+// blue to out2, out4
 
+//solution pump
 int tdsPumpIn1Pin = 22;
-int tdsPumpIn2Pin = 21;
+int tdsPumpIn2Pin = 21; 
 int tdsPumpEnPin = 23;
+
+// ph down pump
+int phPumpIn3Pin = 18; 
+int phPumpIn4Pin = 5;  
+int phPumpEnPin = 19; 
+
+
 
 
 
@@ -179,30 +188,36 @@ float getMedianReading(int sensorPin) {
 
 
 bool pollpHSensor() {
-  for(int i=0;i<20;i++) 
-  { 
-    buffer_arr[i]=analogRead(phPin);
-    delay(30);
-  }
-  for(int i=0;i<19;i++)
-  {
-    for(int j=i+1;j<20;j++)
-    {
-      if(buffer_arr[i]>buffer_arr[j])
-      {
-        temp=buffer_arr[i];
-        buffer_arr[i]=buffer_arr[j];
-        buffer_arr[j]=temp;
-      }
-    }
-  }
-  avgval=0;
-  for(int i=12;i<18;i++) {
-    avgval+=buffer_arr[i];
-  }
-  float volt=(float)avgval*((3.3 / 4095.0))/6.0; 
-   ph_act = -5.70 * volt + calibration_value;
+  // for(int i=0;i<20;i++) 
+  // { 
+  //   buffer_arr[i]=analogRead(phPin);
+  //   delay(30);
+  // }
+  // for(int i=0;i<19;i++)
+  // {
+  //   for(int j=i+1;j<20;j++)
+  //   {
+  //     if(buffer_arr[i]>buffer_arr[j])
+  //     {
+  //       temp=buffer_arr[i];
+  //       buffer_arr[i]=buffer_arr[j];
+  //       buffer_arr[j]=temp;
+  //     }
+  //   }
+  // }
+  // avgval=0;
+  // for(int i=12;i<18;i++) {
+  //   avgval+=buffer_arr[i];
+  // }
+
+  float analogValue = getMedianReading(phPin); // median filtered pH for 10 samples
+  float volt=(float)analogValue*((3.3 / 4095.0)); // Convert ADC value to voltage
+  ph_act = -5.70 * volt + calibration_value;
   
+  // Serial.print("Raw ADC: ");
+  // Serial.print(analogValue);
+  // Serial.print("  Voltage: ");
+  // Serial.println(volt, 3);
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
@@ -226,6 +241,12 @@ void runTDSPump(){
   analogWrite(tdsPumpEnPin, 255); // Enable pump
   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
   digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
+}
+
+void stopTDSPump() {
+  analogWrite(tdsPumpEnPin, 0); // Disable pump
+  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+  digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
 }
 
 bool pollTDSSensor() {
@@ -256,6 +277,8 @@ bool pollTDSSensor() {
   if (tdsValue < tdsRequired) {
     // run pump 
     runTDSPump();
+    delay(5000); // Run pump for 5 seconds
+    stopTDSPump(); // Stop pump after adding nutrients
   }
 
   delay(100);
