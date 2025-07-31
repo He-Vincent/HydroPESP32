@@ -93,8 +93,7 @@
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
-// idk if 20 is safe but running my pumps i use 5 sec delays
-#define WDT_TIMEOUT 20 
+#define WDT_TIMEOUT 10 
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -125,8 +124,6 @@ float tdsValue = 0.0; // Current TDS value
 float tdsRequired = 0.0; // sum of beginning + TDS solution PPM based on growth 
 // need tds of water + solution PPM based on growth stage
 // could hardcore water ppm
-
-float phRequired = 6.0; // Desired pH value, middle of 5.5 and 6.5
 
 
 // pumps 
@@ -188,17 +185,6 @@ float getMedianReading(int sensorPin) {
   }
 }
 
-void runPHPump() {
-  analogWrite(phPumpEnPin, 255); // Enable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
-}
-
-void stopPHPump() {
-  analogWrite(phPumpEnPin, 0); // Disable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
-}
 
 
 bool pollpHSensor() {
@@ -235,13 +221,6 @@ bool pollpHSensor() {
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
-  if (ph_act > phRequired) {
-    // run ph pump 
-    runPHPump();
-    delay(5000); // Run pump for 5 seconds
-    stopPHPump(); // Stop pump after adding nutrients
-  }
-
   delay(100);
   return true;
 
@@ -269,10 +248,6 @@ void stopTDSPump() {
   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
   digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
 }
-
-
-
-
 
 bool pollTDSSensor() {
   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
