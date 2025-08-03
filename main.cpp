@@ -1,100 +1,15 @@
-// #include <esp_task_wdt.h>
-// #define N 10                     // Number of readings to track
-// #define THRESHOLD 0.5  // Max allowed variation to consider it settled
-
-// #include <OneWire.h>
-// #include <DallasTemperature.h>
-// #include <Arduino.h>
-
-// float tempHistory[N];
-// int idx = 0;
-// bool settled = false;
-
-
-// // Data wire is plugged into port 4 on the Arduino
-// #define ONE_WIRE_BUS 4
-// // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
-// OneWire oneWire(ONE_WIRE_BUS);
-
-// // Pass our oneWire reference to Dallas Temperature. 
-// DallasTemperature sensors(&oneWire);
-
-
-// // #define WDT_TIMEOUT 5  // Timeout in seconds
-
-
-
-
-// void setup(void) {
-
-//   // esp_task_wdt_init(WDT_TIMEOUT, true); // Enable panic so ESP32 resets
-//   // esp_task_wdt_add(NULL);     
-//   // start serial port
-//   Serial.begin(9600);
-  
-//   // // Start up the library
-//   sensors.begin();
-  
-//   // wdt_enable(WDTO_2S); // Enable watchdog timer with a 2-second timeout
-
-
-// }
-
-// // let's say 25 C is what we want
-// // so if it's 25 +- 1 degree, that's fine
-
-
-// void loop(void) { 
-  
-//   sensors.requestTemperatures(); // Send the command to get temperatures
-//   // Serial.print("Celsius temperature: ");
-//   // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
-//   float currentTemp = sensors.getTempCByIndex(0);
-
-//   tempHistory[idx] = currentTemp;
-//   idx = (idx + 1) % N;
-
-//   if (idx == 0) { // Only check after filling the buffer
-//     float tMin = tempHistory[0];
-//     float tMax = tempHistory[0];
-
-//     for (int i = 1; i < N; i++) {
-//       if (tempHistory[i] < tMin) tMin = tempHistory[i];
-//       if (tempHistory[i] > tMax) tMax = tempHistory[i];
-//     }
-
-//     if ((tMax - tMin) < THRESHOLD) {
-//       if (!settled) {
-//         Serial.println("Temperature has settled.");
-//         // Serial.println(currentTemp);
-//         settled = true;
-//       }
-     
-
-//     } else {
-//       if (settled) {
-//         Serial.println("Temperature is changing.");
-//         // Serial.println(currentTemp);
-//         settled = false;
-//       }
-//     }
-//     Serial.println(currentTemp);
-//   }
-
-//   delay(500); // Read every 0.5 seconds (adjust if needed)
-
-// }
-
-
 //TODO:
 //1. fix calibration of Ph
-//2. now none of the pumps run, why? print debug .and debug.
 
+// include the library
+#include <LiquidCrystal.h>
 
+// Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
+LiquidCrystal lcd(13, 16, 25, 32, 27, 14);
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
-#define WDT_TIMEOUT 20
+#define WDT_TIMEOUT 100
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -154,7 +69,7 @@ int phPumpEnPin = 19;
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 10
+#define NUM_SAMPLES 30
 
 int readings[NUM_SAMPLES];
 
@@ -203,27 +118,6 @@ void stopPHPump() {
 
 
 bool pollpHSensor() {
-  // for(int i=0;i<20;i++) 
-  // { 
-  //   buffer_arr[i]=analogRead(phPin);
-  //   delay(30);
-  // }
-  // for(int i=0;i<19;i++)
-  // {
-  //   for(int j=i+1;j<20;j++)
-  //   {
-  //     if(buffer_arr[i]>buffer_arr[j])
-  //     {
-  //       temp=buffer_arr[i];
-  //       buffer_arr[i]=buffer_arr[j];
-  //       buffer_arr[j]=temp;
-  //     }
-  //   }
-  // }
-  // avgval=0;
-  // for(int i=12;i<18;i++) {
-  //   avgval+=buffer_arr[i];
-  // }
 
   float analogValue = getMedianReading(phPin); // median filtered pH for 10 samples
   float volt=(float)analogValue*((3.3 / 4095.0)); // Convert ADC value to voltage
@@ -237,8 +131,9 @@ bool pollpHSensor() {
   Serial.println(ph_act);
 
   if (ph_act > phRequired) {
-    runPHPump(); // Run pH down pump
-    delay(5000); // Run pump for 5 seconds
+    Serial.println("PH PUMP");
+    // runPHPump(); // Run pH down pump
+    delay(1000); // Run pump 
     stopPHPump(); // Stop pump after adjusting pH
   }
 
@@ -271,16 +166,13 @@ void stopTDSPump() {
 }
 
 bool pollTDSSensor() {
+
   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
   float voltage = analogValue * (3.3 / 4095.0);
-  Serial.print("Raw ADC: ");
-  Serial.print(analogValue);
-  Serial.print("  Voltage: ");
-  Serial.println(voltage, 3);
-
-  
-
-
+  // Serial.print("Raw ADC: ");
+  // Serial.print(analogValue);
+  // Serial.print("  Voltage: ");
+  // Serial.println(voltage, 3);
 
   float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
   float compensationVoltage = voltage / compensationCoefficient;
@@ -289,16 +181,17 @@ bool pollTDSSensor() {
                   - 255.86 * pow(compensationVoltage, 2)
                   + 857.39 * compensationVoltage) * 0.5;
 
-  Serial.print("required tds");
-  Serial.println(tdsRequired);
+  // Serial.print("required tds");
+  // Serial.println(tdsRequired);
 
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
 
   if (tdsValue < tdsRequired) {
     // run pump 
-    runTDSPump();
-    delay(5000); // Run pump for 5 seconds
+    Serial.println("TDS PUMP");
+    // runTDSPump();
+    delay(1000); 
     stopTDSPump(); // Stop pump after adding nutrients
   }
 
@@ -324,16 +217,40 @@ float ppmTapWater = 6.0; // PPM of tap water from my house
 
 
 void setup() {
+    // set up the LCD's number of columns and rows:
+    lcd.begin(16, 2);
+
+    // Clears the LCD screen
+    lcd.clear();
+  
+    lcd.setCursor(0,0);
+    lcd.print(" Hello world!");
+
+
+
+
   //pinmode for tds pump
   pinMode(tdsPumpIn1Pin, OUTPUT);
   pinMode(tdsPumpIn2Pin, OUTPUT);
   pinMode(tdsPumpEnPin, OUTPUT);
 
   //pinmode for ph pump
+  pinMode(phPumpIn3Pin, OUTPUT);
+  pinMode(phPumpIn4Pin, OUTPUT);
+  pinMode(phPumpEnPin, OUTPUT);
 
-  // Turn off motors - Initial state
+  // Turn off pumps - Initial state
   digitalWrite(tdsPumpIn1Pin, LOW);
   digitalWrite(tdsPumpIn2Pin, LOW);
+  digitalWrite(tdsPumpEnPin, LOW);
+
+  digitalWrite(phPumpIn3Pin, LOW);
+  digitalWrite(phPumpIn4Pin, LOW);
+  digitalWrite(phPumpEnPin, LOW);
+
+  
+
+
 
 
   Serial.begin(9600);
@@ -386,6 +303,17 @@ void setup() {
 
 
 void loop() {
+
+  //  // Print a message to the LCD.
+  //  lcd.print(" Hello world!");
+
+  //  // set the cursor to column 0, line 1
+  //  // (note: line 1 is the second row, since counting begins with 0):
+  //  lcd.setCursor(0, 1);
+  //  // Print a message to the LCD.
+  //  lcd.print(" LCD Tutorial");
+
+
     // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
     if (!polltempSensor()) {
       Serial.println("temp sensor failed!");
