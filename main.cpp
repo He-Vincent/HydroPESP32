@@ -28,7 +28,7 @@ int phPin = 34; // ADC pin for pH sensor
 
 float temperature = 25.0;  // Replace with real temp if available
 
-float calibration_value = 21.34 - 0.7 + 0.46;
+float calibration_value = 21.34 - 0.7 + 0.46; 
 float avgval; 
 float buffer_arr[20],temp;
  
