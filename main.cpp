@@ -5,7 +5,7 @@
 #include <LiquidCrystal.h>
 
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
-LiquidCrystal lcd(13, 16, 25, 32, 27, 14);
+LiquidCrystal lcd(13, 2, 25, 32, 27, 14);
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
@@ -61,6 +61,38 @@ int phPumpEnPin = 19;
 
 
 
+
+void printPH(float ph) {
+  lcd.setCursor(0,1);
+  lcd.print(ph);
+}
+void printPPM(float tds){
+  lcd.setCursor(5,1);
+  lcd.print(tds);
+
+}
+
+void printTempC(float temp) {
+  lcd.setCursor(11,1);
+  lcd.print(temp);
+  // lcd.print("C");
+
+}
+
+void clearPH() {
+  lcd.setCursor(0,1);
+  lcd.print("     "); // 5 spaces
+}
+
+void clearPPM() {
+  lcd.setCursor(5,1);
+  lcd.print("      "); //6 spaces
+}
+
+void clearTempC() {
+  lcd.setCursor(11,1);
+  lcd.print("     "); //5 spaces
+}
 
 // pumps
 
@@ -127,6 +159,9 @@ bool pollpHSensor() {
   // Serial.print(analogValue);
   // Serial.print("  Voltage: ");
   // Serial.println(volt, 3);
+  
+  clearPH(); // Clear previous pH display
+  printPH(ph_act); // Print pH value to LCD
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
@@ -147,6 +182,8 @@ bool polltempSensor() {
   float currentTemp = sensors.getTempCByIndex(0);
   Serial.print("Celsius temperature: ");
   Serial.println(currentTemp);
+  clearTempC(); // Clear previous temperature display
+  printTempC(currentTemp); // Print temperature to LCD
   temperature = currentTemp; // Update global temperature variable
 
  
@@ -183,7 +220,8 @@ bool pollTDSSensor() {
 
   // Serial.print("required tds");
   // Serial.println(tdsRequired);
-
+  clearPPM(); // Clear previous TDS display
+  printPPM(tdsValue); // Print TDS value to LCD
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
 
@@ -215,7 +253,6 @@ float ppmTapWater = 6.0; // PPM of tap water from my house
 
 
 
-
 void setup() {
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
@@ -224,8 +261,13 @@ void setup() {
     lcd.clear();
   
     lcd.setCursor(0,0);
-    lcd.print(" Hello world!");
+    lcd.print("pH");
 
+    lcd.setCursor(5,0);
+    lcd.print("PPM");
+
+    lcd.setCursor(11,0);
+    lcd.print("TempC");
 
 
 
