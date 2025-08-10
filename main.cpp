@@ -7,12 +7,42 @@
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
 LiquidCrystal lcd(13, 2, 25, 32, 27, 14);
 
+#define SENSOR_POLL_INTERVAL 1000
+#define BLYNK_SEND_INTERVAL  1000
+
 #include <Arduino.h>
 #include <esp_task_wdt.h>
 #define WDT_TIMEOUT 100
-
+// 
 #include <OneWire.h>
 #include <DallasTemperature.h>
+
+#define BLYNK_TEMPLATE_ID "TMPL2BO6Ir-cT"
+#define BLYNK_TEMPLATE_NAME "HydroP"
+#define BLYNK_AUTH_TOKEN "ZisX61goKro1iq8lepCJnPokUHJ_hH2j"
+#define BLYNK_FIRMWARE_VERSION        "0.1.0"
+
+#include <BlynkSimpleEsp32.h>  // Blynk core
+#include <SimpleTimer.h>
+SimpleTimer timer;
+
+
+
+
+#define BLYNK_PRINT Serial
+//#define BLYNK_DEBUG
+
+#define APP_DEBUG
+
+// #include "C:\Users\Vincent\Documents\PlatformIO\Projects\HydroPESP32\.pio\libdeps\upesy_wroom\Blynk\examples\Blynk.Edgent\Edgent_ESP32\BlynkEdgent.h"
+
+
+#define PH_PIN V0
+#define TDS_PIN V1
+#define TEMP_PIN V2
+
+
+
 
 // Data wire is plugged into port 4 on the board
 #define ONE_WIRE_BUS 4
@@ -23,7 +53,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 
-int tdsPin = 26; // ADC pin for TDS sensor
+int tdsPin = 33; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 
 float temperature = 25.0;  // Replace with real temp if available
@@ -165,6 +195,7 @@ bool pollpHSensor() {
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
+
   if (ph_act > phRequired) {
     Serial.println("PH PUMP");
     // runPHPump(); // Run pH down pump
@@ -185,6 +216,7 @@ bool polltempSensor() {
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
   temperature = currentTemp; // Update global temperature variable
+
 
  
   delay(100);
@@ -225,6 +257,7 @@ bool pollTDSSensor() {
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
 
+
   if (tdsValue < tdsRequired) {
     // run pump 
     Serial.println("TDS PUMP");
@@ -237,6 +270,17 @@ bool pollTDSSensor() {
   return true;
 }
 
+void sendTDS(){
+  Blynk.virtualWrite(V1, tdsValue); // Send processed value
+}
+
+void sendPH(){
+  Blynk.virtualWrite(V0, ph_act); // Send processed value
+}
+
+void sendTemp(){
+  Blynk.virtualWrite(V2, temperature); // Send processed value
+}
 
 
 typedef enum {
@@ -251,7 +295,35 @@ GrowState currentState = SEEDLING; // Initial state
 
 float ppmTapWater = 6.0; // PPM of tap water from my house
 
+void pollSensors() {
+     // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
+     if (!polltempSensor()) {
+      Serial.println("temp sensor failed!");
+    }
+  
 
+  // Poll ph sensor
+  if (!pollpHSensor()) {
+    Serial.println("ph sensor failed!");
+  }
+
+
+  // // Poll sensor 3
+  if (!pollTDSSensor()) {
+    Serial.println("TDS sensor failed!");
+  }
+
+  // Feed the watchdog if everything is ok
+  esp_task_wdt_reset();
+  // Add any additional sensor polling here
+}
+
+void sendDataToBlynk() {
+  sendPH(); // Send pH value to Blynk
+  sendTDS(); // Send TDS value to Blynk
+  sendTemp(); // Send temperature value to Blynk
+
+}
 
 void setup() {
     // set up the LCD's number of columns and rows:
@@ -292,7 +364,8 @@ void setup() {
 
   
 
-
+  Blynk.begin(BLYNK_AUTH_TOKEN,"felixdaddy 2.4G", "20041997");
+    // timer.setInterval(1000L, sendProcessedValue); // every 1s
 
 
   Serial.begin(9600);
@@ -333,7 +406,13 @@ void setup() {
   tdsRequired = ppmTapWater + solutionPPM; // Calculate required TDS based on initial TDS and growth stage
   Serial.print("Required TDS: ");
   Serial.println(tdsRequired);
-  
+
+  // timer.setInterval(1000L, sendPH);
+  // timer.setInterval(1000L, sendTDS);
+  // timer.setInterval(1000L, sendTemp);
+
+  timer.setInterval(SENSOR_POLL_INTERVAL, pollSensors);
+timer.setInterval(BLYNK_SEND_INTERVAL, sendDataToBlynk);
   // Initialize watchdog for the current task (loopTask)
   // 1st param = timeout, 2nd = panic on timeout?, 3rd = reset system?
   esp_task_wdt_init(WDT_TIMEOUT, true); 
@@ -345,6 +424,9 @@ void setup() {
 
 
 void loop() {
+  // BlynkEdgent.run();
+  Blynk.run();
+  timer.run();
 
   //  // Print a message to the LCD.
   //  lcd.print(" Hello world!");
@@ -354,27 +436,59 @@ void loop() {
   //  lcd.setCursor(0, 1);
   //  // Print a message to the LCD.
   //  lcd.print(" LCD Tutorial");
-
-
-    // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
-    if (!polltempSensor()) {
-      Serial.println("temp sensor failed!");
-    }
-  
-
-  // Poll ph sensor
-  if (!pollpHSensor()) {
-    Serial.println("ph sensor failed!");
-  }
-
-
-  // // Poll sensor 3
-  if (!pollTDSSensor()) {
-    Serial.println("TDS sensor failed!");
-  }
-
-  // Feed the watchdog if everything is ok
-  esp_task_wdt_reset();
-
-  delay(1000); // Wait 1 second
 }
+
+
+
+// *** MAIN SETTINGS ***
+// Replace this block with correct template settings.
+// You can find it for every template here:
+//
+//   https://blynk.cloud/dashboard/templates
+
+// #define BLYNK_TEMPLATE_ID "TMPL2XEiECiGL"
+// #define BLYNK_TEMPLATE_NAME "LED ESP32 1"
+
+
+
+
+
+
+// #define LED_PIN 2  // Use pin 2 for LED (change it, if your board uses another pin)
+
+
+// // V0 is a datastream used to transfer and store LED switch state.
+// // Evey time you use the LED switch in the app, this function
+// // will listen and update the state on device
+// BLYNK_WRITE(V0)
+// {
+//   // Local variable `value` stores the incoming LED switch state (1 or 0)
+//   // Based on this value, the physical LED on the board will be on or off:
+//   int value = param.asInt();
+
+//   if (value == 1) {
+//     digitalWrite(LED_PIN, HIGH);
+//     Serial.print("value =");
+//     Serial.println(value);
+//   } else {
+//     digitalWrite(LED_PIN, LOW);
+//     Serial.print("value = ");
+//     Serial.println(value);
+//   }
+// }
+// void setup()
+// {
+//   pinMode(LED_PIN, OUTPUT);
+
+//   // Debug console. Make sure you have the same baud rate selected in your serial monitor
+//   Serial.begin(115200);
+//   delay(100);
+
+//   BlynkEdgent.begin();
+// }
+
+// void loop() {
+//   BlynkEdgent.run();
+//   delay(10);
+// }
+
