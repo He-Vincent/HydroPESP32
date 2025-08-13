@@ -6,9 +6,9 @@
 
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
 LiquidCrystal lcd(13, 2, 25, 32, 27, 14);
-
-#define SENSOR_POLL_INTERVAL 1000
-#define BLYNK_SEND_INTERVAL  1000
+ 
+#define SENSOR_POLL_INTERVAL 15000 
+#define BLYNK_SEND_INTERVAL  15000 
 
 #include <Arduino.h>
 #include <esp_task_wdt.h>
@@ -131,7 +131,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 30
+#define NUM_SAMPLES 10
 
 int readings[NUM_SAMPLES];
 
@@ -196,14 +196,14 @@ bool pollpHSensor() {
   Serial.println(ph_act);
 
 
-  if (ph_act > phRequired) {
-    Serial.println("PH PUMP");
-    // runPHPump(); // Run pH down pump
-    delay(1000); // Run pump 
-    stopPHPump(); // Stop pump after adjusting pH
-  }
+  // if (ph_act > phRequired) {
+  //   Serial.println("PH PUMP");
+  //   // runPHPump(); // Run pH down pump
+  //   delay(1000); // Run pump 
+  //   stopPHPump(); // Stop pump after adjusting pH
+  // }
 
-  delay(100);
+  // delay(100);
   return true;
 
 }
@@ -219,7 +219,7 @@ bool polltempSensor() {
 
 
  
-  delay(100);
+  // delay(100);
   return true;
 }
 void runTDSPump(){
@@ -258,15 +258,15 @@ bool pollTDSSensor() {
   Serial.println(tdsValue);
 
 
-  if (tdsValue < tdsRequired) {
-    // run pump 
-    Serial.println("TDS PUMP");
-    // runTDSPump();
-    delay(1000); 
-    stopTDSPump(); // Stop pump after adding nutrients
-  }
+  // if (tdsValue < tdsRequired) {
+  //   // run pump 
+  //   Serial.println("TDS PUMP");
+  //   // runTDSPump();
+  //   delay(1000); 
+  //   stopTDSPump(); // Stop pump after adding nutrients
+  // }
 
-  delay(100);
+  // delay(100);
   return true;
 }
 
