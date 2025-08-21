@@ -1,13 +1,15 @@
 //TODO:
-//1. fix calibration of Ph
+// 15 minutes after adding nutrient to then check tds
+// 15 minutes after adding ph down to then check ph
 
 // include the library
 #include <LiquidCrystal.h>
+#include <GravityTDS.h>
 
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
 LiquidCrystal lcd(13, 2, 25, 32, 27, 14);
  
-#define SENSOR_POLL_INTERVAL 15000 
+#define SENSOR_POLL_INTERVAL 1000 // 1 second cuz too lazy to wait 
 #define BLYNK_SEND_INTERVAL  15000 
 
 #include <Arduino.h>
@@ -56,9 +58,9 @@ DallasTemperature sensors(&oneWire);
 int tdsPin = 33; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 
-float temperature = 25.0;  // Replace with real temp if available
+float temperature = 21.9;  // Replace with real temp if available
 
-float calibration_value = 21.34 - 0.7 + 0.46; 
+float calibration_value = 21.34; 
 float avgval; 
 float buffer_arr[20],temp;
  
@@ -69,7 +71,7 @@ float tdsValue = 0.0; // Current TDS value
 
 float tdsRequired = 0.0; // sum of beginning + TDS solution PPM based on growth 
 // need tds of water + solution PPM based on growth stage
-// could hardcore water ppm
+// could hardcore water ppmx  
 
 float phRequired = 6.0;
 
@@ -88,6 +90,10 @@ int phPumpIn3Pin = 18;
 int phPumpIn4Pin = 5;  
 int phPumpEnPin = 19; 
 
+
+const int N = 5;
+float voltages[N] = {0.01, 0.135, 0.43, 0.477, 0.812};
+float ppmVals[N] = {0, 993, 3499, 1210, 398};
 
 
 
@@ -131,7 +137,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 10
+#define NUM_SAMPLES 50
 
 int readings[NUM_SAMPLES];
 
@@ -163,7 +169,7 @@ float getMedianReading(int sensorPin) {
   } else {
     return sorted[NUM_SAMPLES/2];
   }
-}
+} 
 
 
 void runPHPump(){
@@ -215,7 +221,7 @@ bool polltempSensor() {
   Serial.println(currentTemp);
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
-  temperature = currentTemp; // Update global temperature variable
+  // temperature = currentTemp; // Update global temperature variable
 
 
  
@@ -238,24 +244,50 @@ bool pollTDSSensor() {
 
   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
   float voltage = analogValue * (3.3 / 4095.0);
-  // Serial.print("Raw ADC: ");
-  // Serial.print(analogValue);
-  // Serial.print("  Voltage: ");
-  // Serial.println(voltage, 3);
+  Serial.print("TDS Raw ADC: ");
+  Serial.print(analogValue);
+  Serial.print("  TDS Voltage: ");
+  Serial.println(voltage, 3);
+
+//   if (voltage <= voltages[0])  tdsValue = ppmVals[0];
+//   if (voltage >= voltages[N-1])  tdsValue = ppmVals[N-1];
+
+  
+//   for (int i = 0; i < N-1; i++) {
+//     if (voltage >= voltages[i] && voltage <= voltages[i+1]) {
+//         float fraction = (voltage - voltages[i]) / (voltages[i+1] - voltages[i]);
+//         tdsValue = ppmVals[i] + fraction * (ppmVals[i+1] - ppmVals[i]);
+//     }
+// }
+// tdsValue = 0.0; // Default value if no match found
 
   float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
   float compensationVoltage = voltage / compensationCoefficient;
+
+  // tdsValue = tdsValue / compensationCoefficient;
+
+  // tdsValue 
+
+
+  // tdsValue = 1097.2 - 1213.8 * voltage + 533.5 * voltage * voltage;
+  // tdsValue = tdsValue * 1.077;
+  // float tdsValue = 3.5 - 7250 * voltage + 4470 * voltage * voltage;
+  // if (tdsValue < 0) tdsValue = 0;
+
+
 
   tdsValue = (133.42 * pow(compensationVoltage, 3)
                   - 255.86 * pow(compensationVoltage, 2)
                   + 857.39 * compensationVoltage) * 0.5;
 
+  
   // Serial.print("required tds");
   // Serial.println(tdsRequired);
   clearPPM(); // Clear previous TDS display
   printPPM(tdsValue); // Print TDS value to LCD
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
+
 
 
   // if (tdsValue < tdsRequired) {
@@ -326,6 +358,12 @@ void sendDataToBlynk() {
 }
 
 void setup() {
+
+  analogReadResolution(12);
+
+  // Set ADC attenuation for this pin to 11 dB (0–3.3 V range)
+  analogSetPinAttenuation(TDS_PIN, ADC_11db);
+
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
 
@@ -425,7 +463,7 @@ timer.setInterval(BLYNK_SEND_INTERVAL, sendDataToBlynk);
 
 void loop() {
   // BlynkEdgent.run();
-  Blynk.run();
+  // Blynk.run();
   timer.run();
 
   //  // Print a message to the LCD.
