@@ -4,12 +4,12 @@
 
 // include the library
 #include <LiquidCrystal.h>
-#include <GravityTDS.h>
+// #include <GravityTDS.h>
 
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
 LiquidCrystal lcd(13, 2, 25, 32, 27, 14);
  
-#define SENSOR_POLL_INTERVAL 1000 // 1 second cuz too lazy to wait 
+#define SENSOR_POLL_INTERVAL 60000 // 1 second cuz too lazy to wait 
 #define BLYNK_SEND_INTERVAL  15000 
 
 #include <Arduino.h>
@@ -40,7 +40,7 @@ SimpleTimer timer;
 
 
 #define PH_PIN V0
-#define TDS_PIN V1
+// #define TDS_PIN V1
 #define TEMP_PIN V2
 
 
@@ -55,7 +55,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 
-int tdsPin = 33; // ADC pin for TDS sensor
+// int tdsPin = 33; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 
 float temperature = 21.9;  // Replace with real temp if available
@@ -102,11 +102,11 @@ void printPH(float ph) {
   lcd.setCursor(0,1);
   lcd.print(ph);
 }
-void printPPM(float tds){
-  lcd.setCursor(5,1);
-  lcd.print(tds);
+// void printPPM(float tds){
+//   lcd.setCursor(5,1);
+//   lcd.print(tds);
 
-}
+// }
 
 void printTempC(float temp) {
   lcd.setCursor(11,1);
@@ -120,10 +120,10 @@ void clearPH() {
   lcd.print("     "); // 5 spaces
 }
 
-void clearPPM() {
-  lcd.setCursor(5,1);
-  lcd.print("      "); //6 spaces
-}
+// void clearPPM() {
+//   lcd.setCursor(5,1);
+//   lcd.print("      "); //6 spaces
+// }
 
 void clearTempC() {
   lcd.setCursor(11,1);
@@ -137,7 +137,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 50
+#define NUM_SAMPLES 10
 
 int readings[NUM_SAMPLES];
 
@@ -202,12 +202,12 @@ bool pollpHSensor() {
   Serial.println(ph_act);
 
 
-  // if (ph_act > phRequired) {
-  //   Serial.println("PH PUMP");
-  //   // runPHPump(); // Run pH down pump
-  //   delay(1000); // Run pump 
-  //   stopPHPump(); // Stop pump after adjusting pH
-  // }
+  if (ph_act > phRequired) {
+    Serial.println("PH PUMP");
+    runPHPump(); // Run pH down pump
+    delay(3000); // Run pump 
+    stopPHPump(); // Stop pump after adjusting pH
+  }
 
   // delay(100);
   return true;
@@ -228,83 +228,83 @@ bool polltempSensor() {
   // delay(100);
   return true;
 }
-void runTDSPump(){
-  analogWrite(tdsPumpEnPin, 255); // Enable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
-}
-
-void stopTDSPump() {
-  analogWrite(tdsPumpEnPin, 0); // Disable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
-}
-
-bool pollTDSSensor() {
-
-  float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
-  float voltage = analogValue * (3.3 / 4095.0);
-  Serial.print("TDS Raw ADC: ");
-  Serial.print(analogValue);
-  Serial.print("  TDS Voltage: ");
-  Serial.println(voltage, 3);
-
-//   if (voltage <= voltages[0])  tdsValue = ppmVals[0];
-//   if (voltage >= voltages[N-1])  tdsValue = ppmVals[N-1];
-
-  
-//   for (int i = 0; i < N-1; i++) {
-//     if (voltage >= voltages[i] && voltage <= voltages[i+1]) {
-//         float fraction = (voltage - voltages[i]) / (voltages[i+1] - voltages[i]);
-//         tdsValue = ppmVals[i] + fraction * (ppmVals[i+1] - ppmVals[i]);
-//     }
+// void runTDSPump(){
+//   analogWrite(tdsPumpEnPin, 255); // Enable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
 // }
-// tdsValue = 0.0; // Default value if no match found
 
-  float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
-  float compensationVoltage = voltage / compensationCoefficient;
+// void stopTDSPump() {
+//   analogWrite(tdsPumpEnPin, 0); // Disable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
+// }
 
-  // tdsValue = tdsValue / compensationCoefficient;
+// bool pollTDSSensor() {
 
-  // tdsValue 
+//   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+//   float voltage = analogValue * (3.3 / 4095.0);
+//   Serial.print("TDS Raw ADC: ");
+//   Serial.print(analogValue);
+//   Serial.print("  TDS Voltage: ");
+//   Serial.println(voltage, 3);
 
-
-  // tdsValue = 1097.2 - 1213.8 * voltage + 533.5 * voltage * voltage;
-  // tdsValue = tdsValue * 1.077;
-  // float tdsValue = 3.5 - 7250 * voltage + 4470 * voltage * voltage;
-  // if (tdsValue < 0) tdsValue = 0;
-
-
-
-  tdsValue = (133.42 * pow(compensationVoltage, 3)
-                  - 255.86 * pow(compensationVoltage, 2)
-                  + 857.39 * compensationVoltage) * 0.5;
+// //   if (voltage <= voltages[0])  tdsValue = ppmVals[0];
+// //   if (voltage >= voltages[N-1])  tdsValue = ppmVals[N-1];
 
   
-  // Serial.print("required tds");
-  // Serial.println(tdsRequired);
-  clearPPM(); // Clear previous TDS display
-  printPPM(tdsValue); // Print TDS value to LCD
-  Serial.print("TDS (ppm): ");
-  Serial.println(tdsValue);
+// //   for (int i = 0; i < N-1; i++) {
+// //     if (voltage >= voltages[i] && voltage <= voltages[i+1]) {
+// //         float fraction = (voltage - voltages[i]) / (voltages[i+1] - voltages[i]);
+// //         tdsValue = ppmVals[i] + fraction * (ppmVals[i+1] - ppmVals[i]);
+// //     }
+// // }
+// // tdsValue = 0.0; // Default value if no match found
+
+//   float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
+//   float compensationVoltage = voltage / compensationCoefficient;
+
+//   // tdsValue = tdsValue / compensationCoefficient;
+
+//   // tdsValue 
+
+
+//   // tdsValue = 1097.2 - 1213.8 * voltage + 533.5 * voltage * voltage;
+//   // tdsValue = tdsValue * 1.077;
+//   // float tdsValue = 3.5 - 7250 * voltage + 4470 * voltage * voltage;
+//   // if (tdsValue < 0) tdsValue = 0;
 
 
 
-  // if (tdsValue < tdsRequired) {
-  //   // run pump 
-  //   Serial.println("TDS PUMP");
-  //   // runTDSPump();
-  //   delay(1000); 
-  //   stopTDSPump(); // Stop pump after adding nutrients
-  // }
+//   tdsValue = (133.42 * pow(compensationVoltage, 3)
+//                   - 255.86 * pow(compensationVoltage, 2)
+//                   + 857.39 * compensationVoltage) * 0.5;
 
-  // delay(100);
-  return true;
-}
+  
+//   // Serial.print("required tds");
+//   // Serial.println(tdsRequired);
+//   clearPPM(); // Clear previous TDS display
+//   printPPM(tdsValue); // Print TDS value to LCD
+//   Serial.print("TDS (ppm): ");
+//   Serial.println(tdsValue);
 
-void sendTDS(){
-  Blynk.virtualWrite(V1, tdsValue); // Send processed value
-}
+
+
+//   // if (tdsValue < tdsRequired) {
+//   //   // run pump 
+//   //   Serial.println("TDS PUMP");
+//   //   // runTDSPump();
+//   //   delay(1000); 
+//   //   stopTDSPump(); // Stop pump after adding nutrients
+//   // }
+
+//   // delay(100);
+//   return true;
+// }
+
+// void sendTDS(){
+//   Blynk.virtualWrite(V1, tdsValue); // Send processed value
+// }
 
 void sendPH(){
   Blynk.virtualWrite(V0, ph_act); // Send processed value
@@ -315,17 +315,17 @@ void sendTemp(){
 }
 
 
-typedef enum {
-  SEEDLING,
-  EARLY_GROWTH,
-  LATE_GROWTH,
-} GrowState;
+// typedef enum {
+//   SEEDLING,
+//   EARLY_GROWTH,
+//   LATE_GROWTH,
+// } GrowState;
 
-float solutionPPM = 0.0;
+// float solutionPPM = 0.0;
 
-GrowState currentState = SEEDLING; // Initial state
+// GrowState currentState = SEEDLING; // Initial state
 
-float ppmTapWater = 6.0; // PPM of tap water from my house
+// float ppmTapWater = 6.0; // PPM of tap water from my house
 
 void pollSensors() {
      // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
@@ -341,9 +341,9 @@ void pollSensors() {
 
 
   // // Poll sensor 3
-  if (!pollTDSSensor()) {
-    Serial.println("TDS sensor failed!");
-  }
+  // if (!pollTDSSensor()) {
+  //   Serial.println("TDS sensor failed!");
+  // }
 
   // Feed the watchdog if everything is ok
   esp_task_wdt_reset();
@@ -352,17 +352,16 @@ void pollSensors() {
 
 void sendDataToBlynk() {
   sendPH(); // Send pH value to Blynk
-  sendTDS(); // Send TDS value to Blynk
+  // sendTDS(); // Send TDS value to Blynk
   sendTemp(); // Send temperature value to Blynk
 
 }
 
 void setup() {
 
-  analogReadResolution(12);
 
   // Set ADC attenuation for this pin to 11 dB (0–3.3 V range)
-  analogSetPinAttenuation(TDS_PIN, ADC_11db);
+
 
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
@@ -373,28 +372,28 @@ void setup() {
     lcd.setCursor(0,0);
     lcd.print("pH");
 
-    lcd.setCursor(5,0);
-    lcd.print("PPM");
+    // lcd.setCursor(5,0);
+    // lcd.print("PPM");
 
     lcd.setCursor(11,0);
     lcd.print("TempC");
 
 
 
-  //pinmode for tds pump
-  pinMode(tdsPumpIn1Pin, OUTPUT);
-  pinMode(tdsPumpIn2Pin, OUTPUT);
-  pinMode(tdsPumpEnPin, OUTPUT);
+  // //pinmode for tds pump
+  // pinMode(tdsPumpIn1Pin, OUTPUT);
+  // pinMode(tdsPumpIn2Pin, OUTPUT);
+  // pinMode(tdsPumpEnPin, OUTPUT);
 
   //pinmode for ph pump
   pinMode(phPumpIn3Pin, OUTPUT);
   pinMode(phPumpIn4Pin, OUTPUT);
   pinMode(phPumpEnPin, OUTPUT);
 
-  // Turn off pumps - Initial state
-  digitalWrite(tdsPumpIn1Pin, LOW);
-  digitalWrite(tdsPumpIn2Pin, LOW);
-  digitalWrite(tdsPumpEnPin, LOW);
+  // // Turn off pumps - Initial state
+  // digitalWrite(tdsPumpIn1Pin, LOW);
+  // digitalWrite(tdsPumpIn2Pin, LOW);
+  // digitalWrite(tdsPumpEnPin, LOW);
 
   digitalWrite(phPumpIn3Pin, LOW);
   digitalWrite(phPumpIn4Pin, LOW);
@@ -428,22 +427,22 @@ void setup() {
 
   //choose the proper solution PPM based on the current growth stage
   // based on General Hydroponics FloraNova Grow nutrient solution
-  switch(currentState) {
-    case SEEDLING:
-      solutionPPM = 500; // PPM for seedling stage, 0.5mL/L
-      break;
-    case EARLY_GROWTH:
-      solutionPPM = 1250; // PPM for early growth stage, 1.25mL/L
-      break;
-    case LATE_GROWTH:
-      solutionPPM = 2500; // PPM for late growth stage, 2.5mL/L
-      break;
-  }
+  // switch(currentState) {
+  //   case SEEDLING:
+  //     solutionPPM = 500; // PPM for seedling stage, 0.5mL/L
+  //     break;
+  //   case EARLY_GROWTH:
+  //     solutionPPM = 1250; // PPM for early growth stage, 1.25mL/L
+  //     break;
+  //   case LATE_GROWTH:
+  //     solutionPPM = 2500; // PPM for late growth stage, 2.5mL/L
+  //     break;
+  // }
 
 
-  tdsRequired = ppmTapWater + solutionPPM; // Calculate required TDS based on initial TDS and growth stage
-  Serial.print("Required TDS: ");
-  Serial.println(tdsRequired);
+  // tdsRequired = ppmTapWater + solutionPPM; // Calculate required TDS based on initial TDS and growth stage
+  // Serial.print("Required TDS: ");
+  // Serial.println(tdsRequired);
 
   // timer.setInterval(1000L, sendPH);
   // timer.setInterval(1000L, sendTDS);
@@ -463,70 +462,7 @@ timer.setInterval(BLYNK_SEND_INTERVAL, sendDataToBlynk);
 
 void loop() {
   // BlynkEdgent.run();
-  // Blynk.run();
+  Blynk.run();
   timer.run();
 
-  //  // Print a message to the LCD.
-  //  lcd.print(" Hello world!");
-
-  //  // set the cursor to column 0, line 1
-  //  // (note: line 1 is the second row, since counting begins with 0):
-  //  lcd.setCursor(0, 1);
-  //  // Print a message to the LCD.
-  //  lcd.print(" LCD Tutorial");
 }
-
-
-
-// *** MAIN SETTINGS ***
-// Replace this block with correct template settings.
-// You can find it for every template here:
-//
-//   https://blynk.cloud/dashboard/templates
-
-// #define BLYNK_TEMPLATE_ID "TMPL2XEiECiGL"
-// #define BLYNK_TEMPLATE_NAME "LED ESP32 1"
-
-
-
-
-
-
-// #define LED_PIN 2  // Use pin 2 for LED (change it, if your board uses another pin)
-
-
-// // V0 is a datastream used to transfer and store LED switch state.
-// // Evey time you use the LED switch in the app, this function
-// // will listen and update the state on device
-// BLYNK_WRITE(V0)
-// {
-//   // Local variable `value` stores the incoming LED switch state (1 or 0)
-//   // Based on this value, the physical LED on the board will be on or off:
-//   int value = param.asInt();
-
-//   if (value == 1) {
-//     digitalWrite(LED_PIN, HIGH);
-//     Serial.print("value =");
-//     Serial.println(value);
-//   } else {
-//     digitalWrite(LED_PIN, LOW);
-//     Serial.print("value = ");
-//     Serial.println(value);
-//   }
-// }
-// void setup()
-// {
-//   pinMode(LED_PIN, OUTPUT);
-
-//   // Debug console. Make sure you have the same baud rate selected in your serial monitor
-//   Serial.begin(115200);
-//   delay(100);
-
-//   BlynkEdgent.begin();
-// }
-
-// void loop() {
-//   BlynkEdgent.run();
-//   delay(10);
-// }
-
