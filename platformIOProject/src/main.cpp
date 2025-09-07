@@ -101,7 +101,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 30
+#define NUM_SAMPLES 10
 
 int readings[NUM_SAMPLES];
 
@@ -155,10 +155,10 @@ bool pollpHSensor() {
   float volt=(float)analogValue*((3.3 / 4095.0)); // Convert ADC value to voltage
   ph_act = -5.70 * volt + calibration_value;
   
-  // Serial.print("Raw ADC: ");
-  // Serial.print(analogValue);
-  // Serial.print("  Voltage: ");
-  // Serial.println(volt, 3);
+  Serial.print("PH Raw ADC: ");
+  Serial.print(analogValue);
+  Serial.print("PH   Voltage: ");
+  Serial.println(volt, 3);
   
   clearPH(); // Clear previous pH display
   printPH(ph_act); // Print pH value to LCD
@@ -217,6 +217,8 @@ bool pollTDSSensor() {
   tdsValue = (133.42 * pow(compensationVoltage, 3)
                   - 255.86 * pow(compensationVoltage, 2)
                   + 857.39 * compensationVoltage) * 0.5;
+
+  tdsValue -= 36;
 
   // Serial.print("required tds");
   // Serial.println(tdsRequired);
