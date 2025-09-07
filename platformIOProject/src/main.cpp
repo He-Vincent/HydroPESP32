@@ -218,7 +218,7 @@ bool pollTDSSensor() {
                   - 255.86 * pow(compensationVoltage, 2)
                   + 857.39 * compensationVoltage) * 0.5;
 
-  tdsValue -= 36;
+  
 
   // Serial.print("required tds");
   // Serial.println(tdsRequired);
