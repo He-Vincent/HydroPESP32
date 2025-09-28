@@ -210,7 +210,7 @@ bool pollTDSSensor() {
   // Serial.print(analogValue);
   // Serial.print("  Voltage: ");
   // Serial.println(voltage, 3);
-  float kValue = 1.86;
+  float kValue = 1.89;
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
