@@ -26,7 +26,7 @@ DallasTemperature sensors(&oneWire);
 int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 
-float temperature = 25.0;  // Replace with real temp if available
+float temperature = 24.0;  // Replace with real temp if available
 
 float calibration_value = 21.34 - 0.7 + 0.46; 
 float avgval; 
@@ -210,11 +210,11 @@ bool pollTDSSensor() {
   // Serial.print(analogValue);
   // Serial.print("  Voltage: ");
   // Serial.println(voltage, 3);
-  float kValue = 1.15;
+  float kValue = 1.86;
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
-                  + 857.39 * voltage) * kValue; // 1.15 being the tds
+                  + 857.39 * voltage) * kValue; 
 
   float ecValue25 = ec / (1.0 + 0.02 * (temperature - 25.0));  // temperature compensation
 
@@ -368,9 +368,9 @@ void loop() {
 
 
     // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
-    if (!polltempSensor()) {
-      Serial.println("temp sensor failed!");
-    }
+    // if (!polltempSensor()) {
+    //   Serial.println("temp sensor failed!");
+    // }
   
 
   // Poll ph sensor
