@@ -216,7 +216,7 @@ bool pollTDSSensor() {
 
   tdsValue = (133.42 * pow(compensationVoltage, 3)
                   - 255.86 * pow(compensationVoltage, 2)
-                  + 857.39 * compensationVoltage) * 0.5;
+                  + 857.39 * compensationVoltage) * 0.9;
 
   
 
@@ -227,13 +227,13 @@ bool pollTDSSensor() {
   Serial.print("TDS (ppm): ");
   Serial.println(tdsValue);
 
-  if (tdsValue < tdsRequired) {
+  // if (tdsValue < tdsRequired) {
     // run pump 
-    Serial.println("TDS PUMP");
+    // Serial.println("TDS PUMP");
     // runTDSPump();
-    delay(1000); 
-    stopTDSPump(); // Stop pump after adding nutrients
-  }
+    // delay(1000); 
+    // stopTDSPump(); // Stop pump after adding nutrients
+  // }
 
   delay(100);
   return true;
