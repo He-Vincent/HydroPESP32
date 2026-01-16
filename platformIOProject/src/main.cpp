@@ -153,7 +153,9 @@ bool pollpHSensor() {
 
   float analogValue = getMedianReading(phPin); // median filtered pH for 10 samples
   float volt=(float)analogValue*((3.3 / 4095.0)); // Convert ADC value to voltage
-  ph_act = -5.70 * volt + calibration_value;
+  ph_act = -4.8176 * volt + 19.266;
+  
+
   
   Serial.print("PH Raw ADC: ");
   Serial.print(analogValue);
