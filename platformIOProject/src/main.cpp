@@ -218,7 +218,8 @@ bool pollTDSSensor() {
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
-                  + 857.39 * voltage) * kValue; 
+                  + 857.39 * voltage) * kValue; //µS/cm
+
 
   Serial.print("TDS :");
   Serial.println(ec);
@@ -230,7 +231,7 @@ bool pollTDSSensor() {
   Serial.print("TDS (ec adjusted): ");
   Serial.println(ecValue25);
 
-  float tdsValue = ecValue25 * 0.5; // TDS value in ppm, 0.5 being the TDS factor for general hydroponics
+  float tdsValue = ecValue25 * 0.5; // TDS value in ppm, 0.5 being the TDS factor for General Hydroponics
 
   // float compensationCoefficient = 1.0 + 0.02 * (temperature - 25.0);
   // float compensationVoltage = voltage / compensationCoefficient;
