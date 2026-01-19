@@ -22,6 +22,8 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass our oneWire reference to Dallas Temperature. 
 DallasTemperature sensors(&oneWire);
 
+#define POWER_TDS 19
+
 
 int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
@@ -206,7 +208,18 @@ void stopTDSPump() {
 
 bool pollTDSSensor() {
 
+ // power on tds power 
+  digitalWrite(POWER_TDS, HIGH);
+  delay(5000);
+
+  // read the analog val
   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+
+  // power off tds power
+  digitalWrite(POWER_TDS, LOW);
+  delay(5000);
+
+
   float voltage = analogValue * (3.3 / 4095.0);
   // Serial.print("Raw ADC: ");
   // Serial.print(analogValue);
@@ -278,6 +291,12 @@ float ppmTapWater = 6.0; // PPM of tap water from my house
 
 
 void setup() {
+
+  // output pinmode for the tdsPower pin
+  pinMode(POWER_TDS, OUTPUT);
+
+
+
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
 
