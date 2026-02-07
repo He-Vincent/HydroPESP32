@@ -28,7 +28,7 @@ int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
 int tdsPowerPin = 22;
 
-float temperature = 25.0;  // Replace with real temp if available
+float temperature = 21.0;  // Replace with real temp if available
 
 float calibration_value = 21.34 - 0.7 + 0.46; 
 float avgval; 
@@ -184,11 +184,19 @@ bool pollpHSensor() {
 bool polltempSensor() {
   sensors.requestTemperatures();
   float currentTemp = sensors.getTempCByIndex(0);
-  Serial.print("Celsius temperature: ");
-  Serial.println(currentTemp);
+  
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
-  temperature = currentTemp; // Update global temperature variable
+  
+  if (currentTemp < 10 || currentTemp > 35) {
+    temperature = 21.0;
+  }
+  else {
+    temperature = currentTemp; // Update global temperature variable
+  }
+
+  Serial.print("Celsius temperature: ");
+  Serial.println(temperature);
 
  
   delay(100);
@@ -399,7 +407,7 @@ void loop() {
   //  lcd.print(" LCD Tutorial");
 
 
-    // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
+    // Poll temp sensor first, since can use temperature for compensation in TDS 
     if (!polltempSensor()) {
       Serial.println("temp sensor failed!");
     }
