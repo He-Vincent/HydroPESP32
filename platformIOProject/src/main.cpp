@@ -22,11 +22,11 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass our oneWire reference to Dallas Temperature. 
 DallasTemperature sensors(&oneWire);
 
-#define POWER_TDS 19
 
 
 int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
+int tdsPowerPin = 22;
 
 float temperature = 25.0;  // Replace with real temp if available
 
@@ -51,14 +51,14 @@ float phRequired = 6.0;
 // blue to out2, out4
 
 //solution pump
-int tdsPumpIn1Pin = 22;
-int tdsPumpIn2Pin = 21; 
-int tdsPumpEnPin = 23;
+// int tdsPumpIn1Pin = 22;
+// int tdsPumpIn2Pin = 21; 
+// int tdsPumpEnPin = 23;
 
 // ph down pump
-int phPumpIn3Pin = 18; 
-int phPumpIn4Pin = 5;  
-int phPumpEnPin = 19; 
+// int phPumpIn3Pin = 18; 
+// int phPumpIn4Pin = 5;  
+// int phPumpEnPin = 19; 
 
 
 
@@ -103,7 +103,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 50
+#define NUM_SAMPLES 10
 
 int readings[NUM_SAMPLES];
 
@@ -138,17 +138,17 @@ float getMedianReading(int sensorPin) {
 }
 
 
-void runPHPump(){
-  analogWrite(phPumpEnPin, 255); // Enable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
-}
+// void runPHPump(){
+//   analogWrite(phPumpEnPin, 255); // Enable pump
+//   digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+//   digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
+// }
 
-void stopPHPump() {
-  analogWrite(phPumpEnPin, 0); // Disable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
-}
+// void stopPHPump() {
+//   analogWrite(phPumpEnPin, 0); // Disable pump
+//   digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+//   digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
+// }
 
 
 bool pollpHSensor() {
@@ -169,12 +169,12 @@ bool pollpHSensor() {
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
-  if (ph_act > phRequired) {
-    Serial.println("PH PUMP");
-    // runPHPump(); // Run pH down pump
-    delay(1000); // Run pump 
-    stopPHPump(); // Stop pump after adjusting pH
-  }
+  // if (ph_act > phRequired) {
+  //   Serial.println("PH PUMP");
+  //   // runPHPump(); // Run pH down pump
+  //   delay(1000); // Run pump 
+  //   stopPHPump(); // Stop pump after adjusting pH
+  // }
 
   delay(100);
   return true;
@@ -194,29 +194,29 @@ bool polltempSensor() {
   delay(100);
   return true;
 }
-void runTDSPump(){
-  analogWrite(tdsPumpEnPin, 255); // Enable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
-}
+// void runTDSPump(){
+//   analogWrite(tdsPumpEnPin, 255); // Enable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
+// }
 
-void stopTDSPump() {
-  analogWrite(tdsPumpEnPin, 0); // Disable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
-}
+// void stopTDSPump() {
+//   analogWrite(tdsPumpEnPin, 0); // Disable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
+// }
 
 bool pollTDSSensor() {
 
  // power on tds power 
-  digitalWrite(POWER_TDS, HIGH);
+  digitalWrite(tdsPowerPin, HIGH);
   delay(5000);
 
   // read the analog val
   float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
 
   // power off tds power
-  digitalWrite(POWER_TDS, LOW);
+  digitalWrite(tdsPowerPin, LOW);
   delay(5000);
 
 
@@ -293,7 +293,7 @@ float ppmTapWater = 6.0; // PPM of tap water from my house
 void setup() {
 
   // output pinmode for the tdsPower pin
-  pinMode(POWER_TDS, OUTPUT);
+  pinMode(tdsPowerPin, OUTPUT);
 
 
 
@@ -315,23 +315,23 @@ void setup() {
 
 
   //pinmode for tds pump
-  pinMode(tdsPumpIn1Pin, OUTPUT);
-  pinMode(tdsPumpIn2Pin, OUTPUT);
-  pinMode(tdsPumpEnPin, OUTPUT);
+  // pinMode(tdsPumpIn1Pin, OUTPUT);
+  // pinMode(tdsPumpIn2Pin, OUTPUT);
+  // pinMode(tdsPumpEnPin, OUTPUT);
 
-  //pinmode for ph pump
-  pinMode(phPumpIn3Pin, OUTPUT);
-  pinMode(phPumpIn4Pin, OUTPUT);
-  pinMode(phPumpEnPin, OUTPUT);
+  // //pinmode for ph pump
+  // pinMode(phPumpIn3Pin, OUTPUT);
+  // pinMode(phPumpIn4Pin, OUTPUT);
+  // pinMode(phPumpEnPin, OUTPUT);
 
-  // Turn off pumps - Initial state
-  digitalWrite(tdsPumpIn1Pin, LOW);
-  digitalWrite(tdsPumpIn2Pin, LOW);
-  digitalWrite(tdsPumpEnPin, LOW);
+  // // Turn off pumps - Initial state
+  // digitalWrite(tdsPumpIn1Pin, LOW);
+  // digitalWrite(tdsPumpIn2Pin, LOW);
+  // digitalWrite(tdsPumpEnPin, LOW);
 
-  digitalWrite(phPumpIn3Pin, LOW);
-  digitalWrite(phPumpIn4Pin, LOW);
-  digitalWrite(phPumpEnPin, LOW);
+  // digitalWrite(phPumpIn3Pin, LOW);
+  // digitalWrite(phPumpIn4Pin, LOW);
+  // digitalWrite(phPumpEnPin, LOW);
 
   
 
