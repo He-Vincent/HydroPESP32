@@ -111,7 +111,6 @@ float getMedianReading(int sensorPin) {
   // Fill buffer with samples
   for (int i = 0; i < NUM_SAMPLES; i++) {
     readings[i] = analogRead(sensorPin);
-    // how long to read for ph, tds sensor
     delay(10); // Short delay between readings
   }
 
@@ -138,42 +137,38 @@ float getMedianReading(int sensorPin) {
   }
 }
 
-
-// float tempReadings[NUM_SAMPLES];
-// float getTempMedianReading() {
-//   // Fill buffer with samples
-//   for (int i = 0; i < NUM_SAMPLES; i++) {
+float getTempMedianReading() {
+  // Fill buffer with samples
+  for (int i = 0; i < NUM_SAMPLES; i++) {
     
-//     sensors.requestTemperatures();
-//     float currentTemp = sensors.getTempCByIndex(0);
-//     tempReadings[i] = currentTemp;
+    sensors.requestTemperatures();
+    float currentTemp = sensors.getTempCByIndex(0);
+    readings[i] = currentTemp;
+    delay(10); // Short delay between readings
+  }
 
-//     // since it takes 750ms for DS18B20 to read 12 bit. 2^12 = 4096.
-//     delay(750); // Short delay between readings
-//   }
+  // Copy and sort the buffer
+  int sorted[NUM_SAMPLES];
+  memcpy(sorted, readings, sizeof(readings));
 
-//   // Copy and sort the buffer
-//   float sorted[NUM_SAMPLES];
-//   memcpy(sorted, tempReadings, sizeof(readings));
+  // Simple bubble sort
+  for (int i = 0; i < NUM_SAMPLES - 1; i++) {
+    for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
+      if (sorted[j] > sorted[j + 1]) {
+        int temp = sorted[j];
+        sorted[j] = sorted[j + 1];
+        sorted[j + 1] = temp;
+      }
+    }
+  }
 
-//   // Simple bubble sort
-//   for (int i = 0; i < NUM_SAMPLES - 1; i++) {
-//     for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
-//       if (sorted[j] > sorted[j + 1]) {
-//         int temp = sorted[j];
-//         sorted[j] = sorted[j + 1];
-//         sorted[j + 1] = temp;
-//       }
-//     }
-//   }
-
-//   // Return median
-//   if (NUM_SAMPLES % 2 == 0) {
-//     return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
-//   } else {
-//     return sorted[NUM_SAMPLES/2];
-//   }
-// }
+  // Return median
+  if (NUM_SAMPLES % 2 == 0) {
+    return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
+  } else {
+    return sorted[NUM_SAMPLES/2];
+  }
+}
 
 
 // void runPHPump(){
@@ -220,14 +215,16 @@ bool pollpHSensor() {
 }
 
 bool polltempSensor() {
-  sensors.requestTemperatures();
-  float currentTemp = sensors.getTempCByIndex(0);
+  // sensors.requestTemperatures();
+  // float currentTemp = sensors.getTempCByIndex(0);
 
+  float currentTemp = getTempMedianReading();
+  
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
   
   // have seen negative values rarely so ye need guards
-  if (currentTemp < 0 || currentTemp > 35) {
+  if (currentTemp < 5 || currentTemp > 35) {
     temperature = 21.0;
   }
   else {
