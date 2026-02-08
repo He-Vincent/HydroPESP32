@@ -26,13 +26,16 @@
 #include "GravityTDS.h"
 
 #define TdsSensorPin 26
+#define tdsPowerPin 22
 GravityTDS gravityTds;
 
-float temperature = 25,tdsValue = 0;
+float temperature = 21,tdsValue = 0;
 
 void setup()
 {
     Serial.begin(9600);
+    pinMode(tdsPowerPin, OUTPUT);
+
     gravityTds.setPin(TdsSensorPin);
     gravityTds.setAref(3.3);  //reference voltage on ADC, default 5.0V on Arduino UNO
     gravityTds.setAdcRange(4096);  //1024 for 10bit ADC;4096 for 12bit ADC
@@ -42,8 +45,16 @@ void setup()
 void loop()
 {
     //temperature = readTemperature();  //add your temperature sensor and read it
+
+    digitalWrite(tdsPowerPin, HIGH);
+    delay(1000);
+    
     gravityTds.setTemperature(temperature);  // set the temperature and execute temperature compensation
     gravityTds.update();  //sample and calculate
+
+    digitalWrite(tdsPowerPin, LOW);
+    delay(1000);
+
     tdsValue = gravityTds.getTdsValue();  // then get the value
     Serial.print(tdsValue,0);
     Serial.println("ppm");
