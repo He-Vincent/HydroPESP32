@@ -256,11 +256,14 @@ bool pollTDSSensor() {
   delay(5000);
 
   // read the analog val
-  float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+  // float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+  float analogValue = analogRead(tdsPin);
+
+  delay(5000);
 
   // power off tds power
   digitalWrite(tdsPowerPin, LOW);
-  delay(5000);
+  // delay(5000);
 
 
   float voltage = analogValue * (3.3 / 4095.0);
@@ -273,7 +276,7 @@ bool pollTDSSensor() {
   // float kValue = 0.922;
 
   // float kValue = 0.89; 
-  float kValue = 1.07;
+  float kValue = 1.4;
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
