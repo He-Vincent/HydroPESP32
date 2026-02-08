@@ -137,38 +137,38 @@ float getMedianReading(int sensorPin) {
   }
 }
 
-float getTempMedianReading() {
-  // Fill buffer with samples
-  for (int i = 0; i < NUM_SAMPLES; i++) {
+// float getTempMedianReading() {
+//   // Fill buffer with samples
+//   for (int i = 0; i < NUM_SAMPLES; i++) {
     
-    sensors.requestTemperatures();
-    float currentTemp = sensors.getTempCByIndex(0);
-    readings[i] = currentTemp;
-    delay(10); // Short delay between readings
-  }
+//     sensors.requestTemperatures();
+//     float currentTemp = sensors.getTempCByIndex(0);
+//     readings[i] = currentTemp;
+//     delay(10); // Short delay between readings
+//   }
 
-  // Copy and sort the buffer
-  int sorted[NUM_SAMPLES];
-  memcpy(sorted, readings, sizeof(readings));
+//   // Copy and sort the buffer
+//   int sorted[NUM_SAMPLES];
+//   memcpy(sorted, readings, sizeof(readings));
 
-  // Simple bubble sort
-  for (int i = 0; i < NUM_SAMPLES - 1; i++) {
-    for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
-      if (sorted[j] > sorted[j + 1]) {
-        int temp = sorted[j];
-        sorted[j] = sorted[j + 1];
-        sorted[j + 1] = temp;
-      }
-    }
-  }
+//   // Simple bubble sort
+//   for (int i = 0; i < NUM_SAMPLES - 1; i++) {
+//     for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
+//       if (sorted[j] > sorted[j + 1]) {
+//         int temp = sorted[j];
+//         sorted[j] = sorted[j + 1];
+//         sorted[j + 1] = temp;
+//       }
+//     }
+//   }
 
-  // Return median
-  if (NUM_SAMPLES % 2 == 0) {
-    return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
-  } else {
-    return sorted[NUM_SAMPLES/2];
-  }
-}
+//   // Return median
+//   if (NUM_SAMPLES % 2 == 0) {
+//     return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
+//   } else {
+//     return sorted[NUM_SAMPLES/2];
+//   }
+// }
 
 
 // void runPHPump(){
@@ -215,10 +215,9 @@ bool pollpHSensor() {
 }
 
 bool polltempSensor() {
-  // sensors.requestTemperatures();
-  // float currentTemp = sensors.getTempCByIndex(0);
-
-  float currentTemp = getTempMedianReading();
+;
+  sensors.requestTemperatures();
+  float currentTemp = sensors.getTempCByIndex(0);
   
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
