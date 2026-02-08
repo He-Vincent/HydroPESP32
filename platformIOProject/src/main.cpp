@@ -276,7 +276,8 @@ bool pollTDSSensor() {
   // float kValue = 0.97;
   // float kValue = 0.922;
 
-  float kValue = 0.89; 
+  // float kValue = 0.89; 
+  float kValue = 1.07;
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
