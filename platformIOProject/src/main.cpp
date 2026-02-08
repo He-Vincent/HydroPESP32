@@ -23,10 +23,12 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 
+
 int tdsPin = 26; // ADC pin for TDS sensor
 int phPin = 34; // ADC pin for pH sensor
+int tdsPowerPin = 22;
 
-float temperature = 25.0;  // Replace with real temp if available
+float temperature = 21.0;  // Replace with real temp if available
 
 float calibration_value = 21.34 - 0.7 + 0.46; 
 float avgval; 
@@ -49,14 +51,14 @@ float phRequired = 6.0;
 // blue to out2, out4
 
 //solution pump
-int tdsPumpIn1Pin = 22;
-int tdsPumpIn2Pin = 21; 
-int tdsPumpEnPin = 23;
+// int tdsPumpIn1Pin = 22;
+// int tdsPumpIn2Pin = 21; 
+// int tdsPumpEnPin = 23;
 
 // ph down pump
-int phPumpIn3Pin = 18; 
-int phPumpIn4Pin = 5;  
-int phPumpEnPin = 19; 
+// int phPumpIn3Pin = 18; 
+// int phPumpIn4Pin = 5;  
+// int phPumpEnPin = 19; 
 
 
 
@@ -101,7 +103,7 @@ void clearTempC() {
 // Function prototypes
 
 //median filter
-#define NUM_SAMPLES 50
+#define NUM_SAMPLES 10
 
 int readings[NUM_SAMPLES];
 
@@ -135,18 +137,51 @@ float getMedianReading(int sensorPin) {
   }
 }
 
+// float getTempMedianReading() {
+//   // Fill buffer with samples
+//   for (int i = 0; i < NUM_SAMPLES; i++) {
+    
+//     sensors.requestTemperatures();
+//     float currentTemp = sensors.getTempCByIndex(0);
+//     readings[i] = currentTemp;
+//     delay(10); // Short delay between readings
+//   }
 
-void runPHPump(){
-  analogWrite(phPumpEnPin, 255); // Enable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
-}
+//   // Copy and sort the buffer
+//   int sorted[NUM_SAMPLES];
+//   memcpy(sorted, readings, sizeof(readings));
 
-void stopPHPump() {
-  analogWrite(phPumpEnPin, 0); // Disable pump
-  digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
-  digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
-}
+//   // Simple bubble sort
+//   for (int i = 0; i < NUM_SAMPLES - 1; i++) {
+//     for (int j = 0; j < NUM_SAMPLES - i - 1; j++) {
+//       if (sorted[j] > sorted[j + 1]) {
+//         int temp = sorted[j];
+//         sorted[j] = sorted[j + 1];
+//         sorted[j + 1] = temp;
+//       }
+//     }
+//   }
+
+//   // Return median
+//   if (NUM_SAMPLES % 2 == 0) {
+//     return (sorted[NUM_SAMPLES/2 - 1] + sorted[NUM_SAMPLES/2]) / 2.0;
+//   } else {
+//     return sorted[NUM_SAMPLES/2];
+//   }
+// }
+
+
+// void runPHPump(){
+//   analogWrite(phPumpEnPin, 255); // Enable pump
+//   digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+//   digitalWrite(phPumpIn4Pin, HIGH); // Set pump direction
+// }
+
+// void stopPHPump() {
+//   analogWrite(phPumpEnPin, 0); // Disable pump
+//   digitalWrite(phPumpIn3Pin, LOW); // Set pump direction
+//   digitalWrite(phPumpIn4Pin, LOW); // Set pump direction
+// }
 
 
 bool pollpHSensor() {
@@ -167,12 +202,12 @@ bool pollpHSensor() {
   Serial.print("pH Val: ");
   Serial.println(ph_act);
 
-  if (ph_act > phRequired) {
-    Serial.println("PH PUMP");
-    // runPHPump(); // Run pH down pump
-    delay(1000); // Run pump 
-    stopPHPump(); // Stop pump after adjusting pH
-  }
+  // if (ph_act > phRequired) {
+  //   Serial.println("PH PUMP");
+  //   // runPHPump(); // Run pH down pump
+  //   delay(1000); // Run pump 
+  //   stopPHPump(); // Stop pump after adjusting pH
+  // }
 
   delay(100);
   return true;
@@ -180,33 +215,57 @@ bool pollpHSensor() {
 }
 
 bool polltempSensor() {
+;
   sensors.requestTemperatures();
   float currentTemp = sensors.getTempCByIndex(0);
-  Serial.print("Celsius temperature: ");
-  Serial.println(currentTemp);
+  
   clearTempC(); // Clear previous temperature display
   printTempC(currentTemp); // Print temperature to LCD
-  temperature = currentTemp; // Update global temperature variable
+  
+  // have seen negative values rarely so ye need guards
+  if (currentTemp < 5 || currentTemp > 35) {
+    temperature = 21.0;
+  }
+  else {
+    temperature = currentTemp; // Update global temperature variable
+  }
+
+  Serial.print("Celsius temperature: ");
+  Serial.println(temperature);
 
  
   delay(100);
   return true;
 }
-void runTDSPump(){
-  analogWrite(tdsPumpEnPin, 255); // Enable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
-}
+// void runTDSPump(){
+//   analogWrite(tdsPumpEnPin, 255); // Enable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, HIGH); // Set pump direction
+// }
 
-void stopTDSPump() {
-  analogWrite(tdsPumpEnPin, 0); // Disable pump
-  digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
-  digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
-}
+// void stopTDSPump() {
+//   analogWrite(tdsPumpEnPin, 0); // Disable pump
+//   digitalWrite(tdsPumpIn1Pin, LOW); // Set pump direction
+//   digitalWrite(tdsPumpIn2Pin, LOW); // Set pump direction
+// }
 
 bool pollTDSSensor() {
 
-  float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+ // power on tds power 
+  digitalWrite(tdsPowerPin, HIGH);
+  delay(5000);
+
+  // read the analog val
+  // float analogValue = getMedianReading(tdsPin);  // median filtered TDS for 10 samples
+  float analogValue = analogRead(tdsPin);
+
+  delay(5000);
+
+  // power off tds power
+  digitalWrite(tdsPowerPin, LOW);
+  // delay(5000);
+
+
   float voltage = analogValue * (3.3 / 4095.0);
   // Serial.print("Raw ADC: ");
   // Serial.print(analogValue);
@@ -214,7 +273,10 @@ bool pollTDSSensor() {
   // Serial.println(voltage, 3);
   // float kValue = 0.98;
   // float kValue = 0.97;
-  float kValue = 0.922;
+  // float kValue = 0.922;
+
+  // float kValue = 0.89; 
+  float kValue = 1.4;
 
   float ec = (133.42 * voltage * voltage * voltage
                   - 255.86 * voltage * voltage
@@ -278,6 +340,12 @@ float ppmTapWater = 6.0; // PPM of tap water from my house
 
 
 void setup() {
+
+  // output pinmode for the tdsPower pin
+  pinMode(tdsPowerPin, OUTPUT);
+
+
+
     // set up the LCD's number of columns and rows:
     lcd.begin(16, 2);
 
@@ -296,23 +364,23 @@ void setup() {
 
 
   //pinmode for tds pump
-  pinMode(tdsPumpIn1Pin, OUTPUT);
-  pinMode(tdsPumpIn2Pin, OUTPUT);
-  pinMode(tdsPumpEnPin, OUTPUT);
+  // pinMode(tdsPumpIn1Pin, OUTPUT);
+  // pinMode(tdsPumpIn2Pin, OUTPUT);
+  // pinMode(tdsPumpEnPin, OUTPUT);
 
-  //pinmode for ph pump
-  pinMode(phPumpIn3Pin, OUTPUT);
-  pinMode(phPumpIn4Pin, OUTPUT);
-  pinMode(phPumpEnPin, OUTPUT);
+  // //pinmode for ph pump
+  // pinMode(phPumpIn3Pin, OUTPUT);
+  // pinMode(phPumpIn4Pin, OUTPUT);
+  // pinMode(phPumpEnPin, OUTPUT);
 
-  // Turn off pumps - Initial state
-  digitalWrite(tdsPumpIn1Pin, LOW);
-  digitalWrite(tdsPumpIn2Pin, LOW);
-  digitalWrite(tdsPumpEnPin, LOW);
+  // // Turn off pumps - Initial state
+  // digitalWrite(tdsPumpIn1Pin, LOW);
+  // digitalWrite(tdsPumpIn2Pin, LOW);
+  // digitalWrite(tdsPumpEnPin, LOW);
 
-  digitalWrite(phPumpIn3Pin, LOW);
-  digitalWrite(phPumpIn4Pin, LOW);
-  digitalWrite(phPumpEnPin, LOW);
+  // digitalWrite(phPumpIn3Pin, LOW);
+  // digitalWrite(phPumpIn4Pin, LOW);
+  // digitalWrite(phPumpEnPin, LOW);
 
   
 
@@ -380,7 +448,7 @@ void loop() {
   //  lcd.print(" LCD Tutorial");
 
 
-    // Poll temp sensor first, since can use temperature for compensation in TDS and pH calculations
+    // Poll temp sensor first, since can use temperature for compensation in TDS 
     if (!polltempSensor()) {
       Serial.println("temp sensor failed!");
     }
