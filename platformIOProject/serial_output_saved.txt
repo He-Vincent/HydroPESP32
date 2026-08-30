@@ -1,0 +1,9641 @@
+--- Terminal on COM4 | 9600 8-N-1
+--- Available filters and text transformations: debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2940.00
+PH Voltage: 2369.2 mV
+pH Val: 7.18
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2926.00
+PH Voltage: 2357.9 mV
+pH Val: 7.27
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2925.00
+PH Voltage: 2357.1 mV
+pH Val: 7.28
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 2925.00
+PH Voltage: 2357.1 mV
+pH Val: 7.28
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2984.00
+PH Voltage: 2404.7 mV
+pH Val: 6.90
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2931.00
+PH Voltage: 2362.0 mV
+pH Val: 7.24
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2968.00
+PH Voltage: 2391.8 mV
+pH Val: 7.00
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2943.00
+PH Voltage: 2371.6 mV
+pH Val: 7.16
+PH Raw ADC: 2926.00
+PH Voltage: 2357.9 mV
+pH Val: 7.27
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2932.00
+PH Voltage: 2362.8 mV
+pH Val: 7.23
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2953.00
+PH Voltage: 2379.7 mV
+pH Val: 7.10
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2939.00
+PH Voltage: 2368.4 mV
+pH Val: 7.19
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2921.00
+PH Voltage: 2353.9 mV
+pH Val: 7.30
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2931.00
+PH Voltage: 2362.0 mV
+pH Val: 7.24
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2919.00
+PH Voltage: 2352.3 mV
+pH Val: 7.32
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2892.00
+PH Voltage: 2330.5 mV
+pH Val: 7.49
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2918.00
+PH Voltage: 2351.5 mV
+pH Val: 7.32
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2942.00
+PH Voltage: 2370.8 mV
+pH Val: 7.17
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2942.00
+PH Voltage: 2370.8 mV
+pH Val: 7.17
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3048.00
+PH Voltage: 2456.3 mV
+pH Val: 6.49
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2927.00
+PH Voltage: 2358.8 mV
+pH Val: 7.27
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2884.00
+PH Voltage: 2324.1 mV
+pH Val: 7.54
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2938.00
+PH Voltage: 2367.6 mV
+pH Val: 7.20
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2943.00
+PH Voltage: 2371.6 mV
+pH Val: 7.16
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2968.00
+PH Voltage: 2391.8 mV
+pH Val: 7.00
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2917.00
+PH Voltage: 2350.7 mV
+pH Val: 7.33
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 2911.00
+PH Voltage: 2345.9 mV
+pH Val: 7.37
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2912.00
+PH Voltage: 2346.7 mV
+pH Val: 7.36
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2871.00
+PH Voltage: 2313.6 mV
+pH Val: 7.62
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2935.00
+PH Voltage: 2365.2 mV
+pH Val: 7.21
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2925.00
+PH Voltage: 2357.1 mV
+pH Val: 7.28
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2911.00
+PH Voltage: 2345.9 mV
+pH Val: 7.37
+PH Raw ADC: 2953.00
+PH Voltage: 2379.7 mV
+pH Val: 7.10
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+P3.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3060.00
+PH Voltage: 2465.9 mV
+pH Val: 6.42
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3095.00
+PH Voltage: 2494.1 mV
+pH Val: 6.19
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3090.00
+PH Voltage: 2490.1 mV
+pH Val: 6.23
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3089.00
+PH Voltage: 2489.3 mV
+pH Val: 6.23
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3091.00
+PH Voltage: 2490.9 mV
+pH Val: 6.22
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3098.00
+PH Voltage: 2496.6 mV
+pH Val: 6.17
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3094.00
+PH Voltage: 2493.3 mV
+pH Val: 6.20
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3111.00
+PH Voltage: 2507.0 mV
+pH Val: 6.09
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3091.00
+PH Voltage: 2490.9 mV
+pH Val: 6.22
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3091.00
+PH Voltage: 2490.9 mV
+pH Val: 6.22
+PH Raw ADC: 3090.00
+PH Voltage: 2490.1 mV
+pH Val: 6.23
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3089.00
+PH Voltage: 2489.3 mV
+pH Val: 6.23
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3082.00
+PH Voltage: 2483.7 mV
+pH Val: 6.28
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 3093.00
+PH Voltage: 2492.5 mV
+pH Val: 6.21
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3084.00
+PH Voltage: 2485.3 mV
+pH Val: 6.26
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2907.00
+PH Voltage: 2342.6 mV
+pH Val: 7.39
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3093.00
+PH Voltage: 2492.5 mV
+pH Val: 6.21
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3079.00
+PH Voltage: 2481.2 mV
+pH Val: 6.30
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3086.00
+PH Voltage: 2486.9 mV
+pH Val: 6.25
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2942.00
+PH Voltage: 2370.8 mV
+pH Val: 7.17
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3107.00
+PH Voltage: 2503.8 mV
+pH Val: 6.12
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3070.00
+PH Voltage: 2474.0 mV
+pH Val: 6.35
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3097.00
+PH Voltage: 2495.8 mV
+pH Val: 6.18
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3000.00
+PH Voltage: 2417.6 mV
+pH Val: 6.80
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 3100.00
+PH Voltage: 2498.2 mV
+pH Val: 6.16
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3096.00
+PH Voltage: 2494.9 mV
+pH Val: 6.19
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3123.00
+PH Voltage: 2516.7 mV
+pH Val: 6.02
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3090.00
+PH Voltage: 2490.1 mV
+pH Val: 6.23
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3083.00
+PH Voltage: 2484.5 mV
+pH Val: 6.27
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3086.00
+PH Voltage: 2486.9 mV
+pH Val: 6.25
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3123.00
+PH Voltage: 2516.7 mV
+pH Val: 6.02
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3070.00
+PH Voltage: 2474.0 mV
+pH Val: 6.35
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3091.00
+PH Voltage: 2490.9 mV
+pH Val: 6.22
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3068.00
+PH Voltage: 2472.4 mV
+pH Val: 6.37
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3104.00
+PH Voltage: 2501.4 mV
+pH Val: 6.14
+PH Raw ADC: 3115.00
+PH Voltage: 2510.3 mV
+pH Val: 6.07
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3087.00
+PH Voltage: 2487.7 mV
+pH Val: 6.24
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3087.00
+PH Voltage: 2487.7 mV
+pH Val: 6.24
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3087.00
+PH Voltage: 2487.7 mV
+pH Val: 6.24
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3117.00
+PH Voltage: 2511.9 mV
+pH Val: 6.05
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3114.00
+PH Voltage: 2509.5 mV
+pH Val: 6.07
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3101.00
+PH Voltage: 2499.0 mV
+pH Val: 6.16
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 3095.00
+PH Voltage: 2494.1 mV
+pH Val: 6.19
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3083.00
+PH Voltage: 2484.5 mV
+pH Val: 6.27
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 3114.00
+PH Voltage: 2509.5 mV
+pH Val: 6.07
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3105.00
+PH Voltage: 2502.2 mV
+pH Val: 6.13
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3083.00
+PH Voltage: 2484.5 mV
+pH Val: 6.27
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3099.00
+PH Voltage: 2497.4 mV
+pH Val: 6.17
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3092.00
+PH Voltage: 2491.7 mV
+pH Val: 6.21
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3099.00
+PH Voltage: 2497.4 mV
+pH Val: 6.17
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3082.00
+PH Voltage: 2483.7 mV
+pH Val: 6.28
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 3109.00
+PH Voltage: 2505.4 mV
+pH Val: 6.10
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3082.00
+PH Voltage: 2483.7 mV
+pH Val: 6.28
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 3105.00
+PH Voltage: 2502.2 mV
+pH Val: 6.13
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3082.00
+PH Voltage: 2483.7 mV
+pH Val: 6.28
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3101.00
+PH Voltage: 2499.0 mV
+pH Val: 6.16
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3086.00
+PH Voltage: 2486.9 mV
+pH Val: 6.25
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3060.00
+PH Voltage: 2465.9 mV
+pH Val: 6.42
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3123.00
+PH Voltage: 2516.7 mV
+pH Val: 6.02
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+H Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3122.00
+PH Voltage: 2515.9 mV
+pH Val: 6.02
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2937.00
+PH Voltage: 2366.8 mV
+pH Val: 7.20
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3064.00
+PH Voltage: 2469.2 mV
+pH Val: 6.39
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3086.00
+PH Voltage: 2486.9 mV
+pH Val: 6.25
+PH Raw ADC: 2938.00
+PH Voltage: 2367.6 mV
+pH Val: 7.20
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3000.00
+PH Voltage: 2417.6 mV
+pH Val: 6.80
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3142.00
+PH Voltage: 2532.0 mV
+pH Val: 5.89
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 3087.00
+PH Voltage: 2487.7 mV
+pH Val: 6.24
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3099.00
+PH Voltage: 2497.4 mV
+pH Val: 6.17
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3086.00
+PH Voltage: 2486.9 mV
+pH Val: 6.25
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3123.00
+PH Voltage: 2516.7 mV
+pH Val: 6.02
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3095.00
+PH Voltage: 2494.1 mV
+pH Val: 6.19
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3083.00
+PH Voltage: 2484.5 mV
+pH Val: 6.27
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3065.00
+PH Voltage: 2470.0 mV
+pH Val: 6.39
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3000.00
+PH Voltage: 2417.6 mV
+pH Val: 6.80
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2935.00
+PH Voltage: 2365.2 mV
+pH Val: 7.21
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3060.00
+PH Voltage: 2465.9 mV
+pH Val: 6.42
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3031DC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3032.00
+PH Voltage: 2443.4 mV
+pH Val: 6.60
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2938.00
+PH Voltage: 2367.6 mV
+pH Val: 7.20
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 2926.00
+PH Voltage: 2357.9 mV
+pH Val: 7.27
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2952.00
+PH Voltage: 2378.9 mV
+pH Val: 7.11
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3082.00
+PH Voltage: 2483.7 mV
+pH Val: 6.28
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2931.00
+PH Voltage: 2362.0 mV
+pH Val: 7.24
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3104.00
+PH Voltage: 2501.4 mV
+pH Val: 6.14
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3000.00
+PH Voltage: 2417.6 mV
+pH Val: 6.80
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2933.00
+PH Voltage: 2363.6 mV
+pH Val: 7.23
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3090.00
+PH Voltage: 2490.1 mV
+pH Val: 6.23
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2931.00
+PH Voltage: 2362.0 mV
+pH Val: 7.24
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2940.00
+PH Voltage: 2369.2 mV
+pH Val: 7.18
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3060.00
+PH Voltage: 2465.9 mV
+pH Val: 6.42
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3120.00
+PH Voltage: 2514.3 mV
+pH Val: 6.03
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2927.00
+PH Voltage: 2358.8 mV
+pH Val: 7.27
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2902.00
+PH Voltage: 2338.6 mV
+pH Val: 7.43
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2920.00
+PH Voltage: 2353.1 mV
+pH Val: 7.31
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3088.00
+PH Voltage: 2488.5 mV
+pH Val: 6.24
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2939.00
+PH Voltage: 2368.4 mV
+pH Val: 7.19
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3066.00
+PH Voltage: 2470.8 mV
+pH Val: 6.38
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2953.00
+PH Voltage: 2379.7 mV
+pH Val: 7.10
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2930.00
+PH Voltage: 2361.2 mV
+pH Val: 7.25
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2943.00
+PH Voltage: 2371.6 mV
+pH Val: 7.16
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 3032.00
+PH Voltage: 2443.4 mV
+pH Val: 6.60
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3052.00
+PH Voltage: 2459.5 mV
+pH Val: 6.47
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2951.00
+PH Voltage: 2378.1 mV
+pH Val: 7.11
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2943.00
+PH Voltage: 2371.6 mV
+pH Val: 7.16
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+H Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3044.00
+PH Voltage: 2453.0 mV
+pH Val: 6.52
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3004.00
+PH Voltage: 2420.8 mV
+pH Val: 6.77
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3028.00
+PH Voltage: 2440.1 mV
+pH Val: 6.62
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2932.00
+PH Voltage: 2362.8 mV
+pH Val: 7.23
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3070.00
+PH Voltage: 2474.0 mV
+pH Val: 6.35
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2935.00
+PH Voltage: 2365.2 mV
+pH Val: 7.21
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3081.00
+PH Voltage: 2482.9 mV
+pH Val: 6.28
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3087.00
+PH Voltage: 2487.7 mV
+pH Val: 6.24
+PH Raw ADC: 3118.00
+PH Voltage: 2512.7 mV
+pH Val: 6.05
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 3040.00
+PH Voltage: 2449.8 mV
+pH Val: 6.54
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 2996.00
+PH Voltage: 2414.4 mV
+pH Val: 6.83
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3062.00
+PH Voltage: 2467.5 mV
+pH Val: 6.40
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3130.00
+PH Voltage: 2522.3 mV
+pH Val: 5.97
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2956.00
+PH Voltage: 2382.1 mV
+pH Val: 7.08
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3053.00
+PH Voltage: 2460.3 mV
+pH Val: 6.46
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2950.00
+PH Voltage: 2377.3 mV
+pH Val: 7.12
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3151.00
+PH Voltage: 2539.3 mV
+pH Val: 5.84
+PH Raw ADC: 3085.00
+PH Voltage: 2486.1 mV
+pH Val: 6.26
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2968.00
+PH Voltage: 2391.8 mV
+pH Val: 7.00
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3163.00
+PH Voltage: 2548.9 mV
+pH Val: 5.76
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2915.00
+PH Voltage: 2349.1 mV
+pH Val: 7.34
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3057.00
+PH Voltage: 2463.5 mV
+pH Val: 6.44
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3071.00
+PH Voltage: 2474.8 mV
+pH Val: 6.35
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 3107.00
+PH Voltage: 2503.8 mV
+pH Val: 6.12
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2979.00
+PH Voltage: 2400.7 mV
+pH Val: 6.93
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3068.00
+PH Voltage: 2472.4 mV
+pH Val: 6.37
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2987.00
+PH Voltage: 2407.1 mV
+pH Val: 6.88
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2959.00
+PH Voltage: 2384.5 mV
+pH Val: 7.06
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3094.00
+PH Voltage: 2493.3 mV
+pH Val: 6.20
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3034.00
+PH Voltage: 2445.0 mV
+pH Val: 6.58
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3018.00
+PH Voltage: 2432.1 mV
+pH Val: 6.69
+PH Raw ADC: 2957.00
+PH Voltage: 2382.9 mV
+pH Val: 7.07
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2962.00
+PH Voltage: 2387.0 mV
+pH Val: 7.04
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2954.00
+PH Voltage: 2380.5 mV
+pH Val: 7.09
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2974.00
+PH Voltage: 2396.6 mV
+pH Val: 6.97
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3069.00
+PH Voltage: 2473.2 mV
+pH Val: 6.36
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 3067.00
+PH Voltage: 2471.6 mV
+pH Val: 6.37
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2966.00
+PH Voltage: 2390.2 mV
+pH Val: 7.02
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3063.00
+PH Voltage: 2468.4 mV
+pH Val: 6.40
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3048.00
+PH Voltage: 2456.3 mV
+pH Val: 6.49
+PH Raw ADC: 3050.00
+PH Voltage: 2457.9 mV
+pH Val: 6.48
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3020.00
+PH Voltage: 2433.7 mV
+pH Val: 6.67
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 2988.00
+PH Voltage: 2407.9 mV
+pH Val: 6.88
+PH Raw ADC: 3013.00
+PH Voltage: 2428.1 mV
+pH Val: 6.72
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3048.00
+PH Voltage: 2456.3 mV
+pH Val: 6.49
+PH Raw ADC: 2880.00
+PH Voltage: 2320.9 mV
+pH Val: 7.57
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3061.00
+PH Voltage: 2466.7 mV
+pH Val: 6.41
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2967.00
+PH Voltage: 2391.0 mV
+pH Val: 7.01
+PH Raw ADC: 3055.00
+PH Voltage: 2461.9 mV
+pH Val: 6.45
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2953.00
+PH Voltage: 2379.7 mV
+pH Val: 7.10
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2932.00
+PH Voltage: 2362.8 mV
+pH Val: 7.23
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3043.00
+PH Voltage: 2452.2 mV
+pH Val: 6.53
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2955.00
+PH Voltage: 2381.3 mV
+pH Val: 7.09
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2973.00
+PH Voltage: 2395.8 mV
+pH Val: 6.97
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2980.00
+PH Voltage: 2401.5 mV
+pH Val: 6.93
+PH Raw ADC: 3021.00
+PH Voltage: 2434.5 mV
+pH Val: 6.67
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3017.00
+PH Voltage: 2431.3 mV
+pH Val: 6.69
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2982.00
+PH Voltage: 2403.1 mV
+pH Val: 6.91
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 3042.00
+PH Voltage: 2451.4 mV
+pH Val: 6.53
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 3041.00
+PH Voltage: 2450.6 mV
+pH Val: 6.54
+PH Raw ADC: 3009.00
+PH Voltage: 2424.8 mV
+pH Val: 6.74
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 2972.00
+PH Voltage: 2395.0 mV
+pH Val: 6.98
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3006.00
+PH Voltage: 2422.4 mV
+pH Val: 6.76
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3046.00
+PH Voltage: 2454.7 mV
+pH Val: 6.51
+PH Raw ADC: 2938.00
+PH Voltage: 2367.6 mV
+pH Val: 7.20
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2995.00
+PH Voltage: 2413.6 mV
+pH Val: 6.83
+PH Raw ADC: 2983.00
+PH Voltage: 2403.9 mV
+pH Val: 6.91
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3030.00
+PH Voltage: 2441.8 mV
+pH Val: 6.61
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3023.00
+PH Voltage: 2436.1 mV
+pH Val: 6.65
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2986.00
+PH Voltage: 2406.3 mV
+pH Val: 6.89
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 3016.00
+PH Voltage: 2430.5 mV
+pH Val: 6.70
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2985.00
+PH Voltage: 2405.5 mV
+pH Val: 6.90
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2997.00
+PH Voltage: 2415.2 mV
+pH Val: 6.82
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 3005.00
+PH Voltage: 2421.6 mV
+pH Val: 6.77
+PH Raw ADC: 3058.00
+PH Voltage: 2464.3 mV
+pH Val: 6.43
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 3014.00
+PH Voltage: 2428.9 mV
+pH Val: 6.71
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2978.00
+PH Voltage: 2399.9 mV
+pH Val: 6.94
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2964.00
+PH Voltage: 2388.6 mV
+pH Val: 7.03
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 2965.00
+PH Voltage: 2389.4 mV
+pH Val: 7.02
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2958.00
+PH Voltage: 2383.7 mV
+pH Val: 7.07
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 2970.00
+PH Voltage: 2393.4 mV
+pH Val: 6.99
+PH Raw ADC: 2944.00
+PH Voltage: 2372.5 mV
+pH Val: 7.16
+PH Raw ADC: 2999.00
+PH Voltage: 2416.8 mV
+pH Val: 6.81
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3011.00
+PH Voltage: 2426.4 mV
+pH Val: 6.73
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 2976.00
+PH Voltage: 2398.2 mV
+pH Val: 6.95
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3035.00
+PH Voltage: 2445.8 mV
+pH Val: 6.58
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3039.00
+PH Voltage: 2449.0 mV
+pH Val: 6.55
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 3029.00
+PH Voltage: 2441.0 mV
+pH Val: 6.61
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 2960.00
+PH Voltage: 2385.3 mV
+pH Val: 7.06
+PH Raw ADC: 3056.00
+PH Voltage: 2462.7 mV
+pH Val: 6.44
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3025.00
+PH Voltage: 2437.7 mV
+pH Val: 6.64
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2948.00
+PH Voltage: 2375.7 mV
+pH Val: 7.13
+PH Raw ADC: 2926.00
+PH Voltage: 2357.9 mV
+pH Val: 7.27
+PH Raw ADC: 2990.00
+PH Voltage: 2409.5 mV
+pH Val: 6.86
+PH Raw ADC: 2981.00
+PH Voltage: 2402.3 mV
+pH Val: 6.92
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2989.00
+PH Voltage: 2408.7 mV
+pH Val: 6.87
+PH Raw ADC: 3002.00
+PH Voltage: 2419.2 mV
+pH Val: 6.79
+PH Raw ADC: 3031.00
+PH Voltage: 2442.6 mV
+pH Val: 6.60
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 3027.00
+PH Voltage: 2439.3 mV
+pH Val: 6.63
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 3003.00
+PH Voltage: 2420.0 mV
+pH Val: 6.78
+PH Raw ADC: 2939.00
+PH Voltage: 2368.4 mV
+pH Val: 7.19
+PH Raw ADC: 2969.00
+PH Voltage: 2392.6 mV
+pH Val: 7.00
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 3049.00
+PH Voltage: 2457.1 mV
+pH Val: 6.49
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3047.00
+PH Voltage: 2455.5 mV
+pH Val: 6.50
+PH Raw ADC: 2971.00
+PH Voltage: 2394.2 mV
+pH Val: 6.98
+PH Raw ADC: 2993.00
+PH Voltage: 2411.9 mV
+pH Val: 6.84
+PH Raw ADC: 3059.00
+PH Voltage: 2465.1 mV
+pH Val: 6.42
+PH Raw ADC: 3015.00
+PH Voltage: 2429.7 mV
+pH Val: 6.70
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 3033.00
+PH Voltage: 2444.2 mV
+pH Val: 6.59
+PH Raw ADC: 2991.00
+PH Voltage: 2410.3 mV
+pH Val: 6.86
+PH Raw ADC: 3036.00
+PH Voltage: 2446.6 mV
+pH Val: 6.57
+PH Raw ADC: 2998.00
+PH Voltage: 2416.0 mV
+pH Val: 6.81
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 3024.00
+PH Voltage: 2436.9 mV
+pH Val: 6.65
+PH Raw ADC: 3045.00
+PH Voltage: 2453.8 mV
+pH Val: 6.51
+PH Raw ADC: 2977.00
+PH Voltage: 2399.0 mV
+pH Val: 6.95
+PH Raw ADC: 3007.00
+PH Voltage: 2423.2 mV
+pH Val: 6.76
+PH Raw ADC: 3019.00
+PH Voltage: 2432.9 mV
+pH Val: 6.68
+PH Raw ADC: 3022.00
+PH Voltage: 2435.3 mV
+pH Val: 6.66
+PH Raw ADC: 3037.00
+PH Voltage: 2447.4 mV
+pH Val: 6.56
+PH Raw ADC: 3008.00
+PH Voltage: 2424.0 mV
+pH Val: 6.75
+PH Raw ADC: 2994.00
+PH Voltage: 2412.7 mV
+pH Val: 6.84
+PH Raw ADC: 3054.00
+PH Voltage: 2461.1 mV
+pH Val: 6.46
+PH Raw ADC: 3038.00
+PH Voltage: 2448.2 mV
+pH Val: 6.56
+PH Raw ADC: 3026.00
+PH Voltage: 2438.5 mV
+pH Val: 6.63
+PH Raw ADC: 3051.00
+PH Voltage: 2458.7 mV
+pH Val: 6.47
+PH Raw ADC: 2963.00
+PH Voltage: 2387.8 mV
+pH Val: 7.04
+PH Raw ADC: 3010.00
+PH Voltage: 2425.6 mV
+pH Val: 6.74
+PH Raw ADC: 2992.00
+PH Voltage: 2411.1 mV
+pH Val: 6.85
+PH Raw ADC: 2975.00
+PH Voltage: 2397.4 mV
+pH Val: 6.96
+PH Raw ADC: 3012.00
+PH Voltage: 2427.3 mV
+pH Val: 6.72
+PH Raw ADC: 3032.00
+PH Voltage: 2443.4 mV
+pH Val: 6.60
+PH Raw APH Raw ADC: 2844.00
+PH Voltage: 2291.9 mV
+pH Val: 7.80
+PH Raw ADC: 2890.00
+PH Voltage: 2328.9 mV
+pH Val: 7.50
+PH Raw ADC: 2901.00
+PH Voltage: 2337.8 mV
+pH Val: 7.43
+PH Raw ADC: 2907.00
+PH Voltage: 2342.6 mV
+pH Val: 7.39
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2909.00
+PH Voltage: 2344.2 mV
+pH Val: 7.38
+PH Raw ADC: 2873.00
+PH Voltage: 2315.2 mV
+pH Val: 7.61
+PH Raw ADC: 2870.00
+PH Voltage: 2312.8 mV
+pH Val: 7.63
+PH Raw ADC: 2915.00
+PH Voltage: 2349.1 mV
+pH Val: 7.34
+PH Raw ADC: 2870.00
+PH Voltage: 2312.8 mV
+pH Val: 7.63
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 2923.00
+PH Voltage: 2355.5 mV
+pH Val: 7.29
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2919.00
+PH Voltage: 2352.3 mV
+pH Val: 7.32
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2887.00
+PH Voltage: 2326.5 mV
+pH Val: 7.52
+PH Raw ADC: 2921.00
+PH Voltage: 2353.9 mV
+pH Val: 7.30
+PH Raw ADC: 2919.00
+PH Voltage: 2352.3 mV
+pH Val: 7.32
+PH Raw ADC: 2891.00
+PH Voltage: 2329.7 mV
+pH Val: 7.50
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2865.00
+PH Voltage: 2308.8 mV
+pH Val: 7.66
+PH Raw ADC: 2883.00
+PH Voltage: 2323.3 mV
+pH Val: 7.55
+PH Raw ADC: 2901.00
+PH Voltage: 2337.8 mV
+pH Val: 7.43
+PH Raw ADC: 2874.00
+PH Voltage: 2316.0 mV
+pH Val: 7.60
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2848.00
+PH Voltage: 2295.1 mV
+pH Val: 7.77
+PH Raw ADC: 2882.00
+PH Voltage: 2322.5 mV
+pH Val: 7.55
+PH Raw ADC: 2871.00
+PH Voltage: 2313.6 mV
+pH Val: 7.62
+PH Raw ADC: 2895.00
+PH Voltage: 2333.0 mV
+pH Val: 7.47
+PH Raw ADC: 2914.00
+PH Voltage: 2348.3 mV
+pH Val: 7.35
+PH Raw ADC: 2883.00
+PH Voltage: 2323.3 mV
+pH Val: 7.55
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2878.00
+PH Voltage: 2319.3 mV
+pH Val: 7.58
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2886.00
+PH Voltage: 2325.7 mV
+pH Val: 7.53
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2851.00
+PH Voltage: 2297.5 mV
+pH Val: 7.75
+PH Raw ADC: 2890.00
+PH Voltage: 2328.9 mV
+pH Val: 7.50
+PH Raw ADC: 2892.00
+PH Voltage: 2330.5 mV
+pH Val: 7.49
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2911.00
+PH Voltage: 2345.9 mV
+pH Val: 7.37
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2886.00
+PH Voltage: 2325.7 mV
+pH Val: 7.53
+PH Raw ADC: 2873.00
+PH Voltage: 2315.2 mV
+pH Val: 7.61
+PH Raw ADC: 2941.00
+PH Voltage: 2370.0 mV
+pH Val: 7.18
+PH Raw ADC: 2910.00
+PH Voltage: 2345.1 mV
+pH Val: 7.37
+PH Raw ADC: 2878.00
+PH Voltage: 2319.3 mV
+pH Val: 7.58
+PH Raw ADC: 2887.00
+PH Voltage: 2326.5 mV
+pH Val: 7.52
+PH Raw ADC: 2866.00
+PH Voltage: 2309.6 mV
+pH Val: 7.65
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2875.00
+PH Voltage: 2316.8 mV
+pH Val: 7.60
+PH Raw ADC: 2881.00
+PH Voltage: 2321.7 mV
+pH Val: 7.56
+PH Raw ADC: 2867.00
+PH Voltage: 2310.4 mV
+pH Val: 7.65
+PH Raw ADC: 2901.00
+PH Voltage: 2337.8 mV
+pH Val: 7.43
+PH Raw ADC: 2869.00
+PH Voltage: 2312.0 mV
+pH Val: 7.64
+PH Raw ADC: 2906.00
+PH Voltage: 2341.8 mV
+pH Val: 7.40
+PH Raw ADC: 2877.00
+PH Voltage: 2318.5 mV
+pH Val: 7.58
+PH Raw ADC: 2910.00
+PH Voltage: 2345.1 mV
+pH Val: 7.37
+PH Raw ADC: 2881.00
+PH Voltage: 2321.7 mV
+pH Val: 7.56
+PH Raw ADC: 2946.00
+PH Voltage: 2374.1 mV
+pH Val: 7.14
+PH Raw ADC: 2919.00
+PH Voltage: 2352.3 mV
+pH Val: 7.32
+PH Raw ADC: 2875.00
+PH Voltage: 2316.8 mV
+pH Val: 7.60
+PH Raw ADC: 2945.00
+PH Voltage: 2373.3 mV
+pH Val: 7.15
+PH Raw ADC: 2843.00
+PH Voltage: 2291.1 mV
+pH Val: 7.80
+PH Raw ADC: 2907.00
+PH Voltage: 2342.6 mV
+pH Val: 7.39
+PH Raw ADC: 2895.00
+PH Voltage: 2333.0 mV
+pH Val: 7.47
+PH Raw ADC: 2928.00
+PH Voltage: 2359.6 mV
+pH Val: 7.26
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2832.00
+PH Voltage: 2282.2 mV
+pH Val: 7.87
+PH Raw ADC: 2887.00
+PH Voltage: 2326.5 mV
+pH Val: 7.52
+PH Raw ADC: 2911.00
+PH Voltage: 2345.9 mV
+pH Val: 7.37
+PH Raw ADC: 2877.00
+PH Voltage: 2318.5 mV
+pH Val: 7.58
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2915.00
+PH Voltage: 2349.1 mV
+pH Val: 7.34
+PH Raw ADC: 2890.00
+PH Voltage: 2328.9 mV
+pH Val: 7.50
+PH Raw ADC: 2906.00
+PH Voltage: 2341.8 mV
+pH Val: 7.40
+PH Raw ADC: 2906.00
+PH Voltage: 2341.8 mV
+pH Val: 7.40
+PH Raw ADC: 2902.00
+PH Voltage: 2338.6 mV
+pH Val: 7.43
+PH Raw ADC: 2885.00
+PH Voltage: 2324.9 mV
+pH Val: 7.53
+PH Raw ADC: 2873.00
+PH Voltage: 2315.2 mV
+pH Val: 7.61
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2847.00
+PH Voltage: 2294.3 mV
+pH Val: 7.78
+PH Raw ADC: 2917.00
+PH Voltage: 2350.7 mV
+pH Val: 7.33
+PH Raw ADC: 2931.00
+PH Voltage: 2362.0 mV
+pH Val: 7.24
+PH Raw ADC: 2934.00
+PH Voltage: 2364.4 mV
+pH Val: 7.22
+PH Raw ADC: 2865.00
+PH Voltage: 2308.8 mV
+pH Val: 7.66
+PH Raw ADC: 2922.00
+PH Voltage: 2354.7 mV
+pH Val: 7.30
+PH Raw ADC: 2898.00
+PH Voltage: 2335.4 mV
+pH Val: 7.45
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2929.00
+PH Voltage: 2360.4 mV
+pH Val: 7.25
+PH Raw ADC: 2882.00
+PH Voltage: 2322.5 mV
+pH Val: 7.55
+PH Raw ADC: 2921.00
+PH Voltage: 2353.9 mV
+pH Val: 7.30
+PH Raw ADC: 2898.00
+PH Voltage: 2335.4 mV
+pH Val: 7.45
+PH Raw ADC: 2949.00
+PH Voltage: 2376.5 mV
+pH Val: 7.13
+PH Raw ADC: 2876.00
+PH Voltage: 2317.7 mV
+pH Val: 7.59
+PH Raw ADC: 2880.00
+PH Voltage: 2320.9 mV
+pH Val: 7.57
+PH Raw ADC: 2927.00
+PH Voltage: 2358.8 mV
+pH Val: 7.27
+PH Raw ADC: 2942.00
+PH Voltage: 2370.8 mV
+pH Val: 7.17
+PH Raw ADC: 2895.00
+PH Voltage: 2333.0 mV
+pH Val: 7.47
+PH Raw ADC: 2864.00
+PH Voltage: 2308.0 mV
+pH Val: 7.67
+PH Raw ADC: 2891.00
+PH Voltage: 2329.7 mV
+pH Val: 7.50
+PH Raw ADC: 2901.00
+PH Voltage: 2337.8 mV
+pH Val: 7.43
+PH Raw ADC: 2892.00
+PH Voltage: 2330.5 mV
+pH Val: 7.49
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2947.00
+PH Voltage: 2374.9 mV
+pH Val: 7.14
+PH Raw ADC: 2909.00
+PH Voltage: 2344.2 mV
+pH Val: 7.38
+PH Raw ADC: 2906.00
+PH Voltage: 2341.8 mV
+pH Val: 7.40
+PH Raw ADC: 2913.00
+PH Voltage: 2347.5 mV
+pH Val: 7.36
+PH Raw ADC: 2907.00
+PH Voltage: 2342.6 mV
+pH Val: 7.39
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2910.00
+PH Voltage: 2345.1 mV
+pH Val: 7.37
+PH Raw ADC: 2874.00
+PH Voltage: 2316.0 mV
+pH Val: 7.60
+PH Raw ADC: 2881.00
+PH Voltage: 2321.7 mV
+pH Val: 7.56
+PH Raw ADC: 2917.00
+PH Voltage: 2350.7 mV
+pH Val: 7.33
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2930.00
+PH Voltage: 2361.2 mV
+pH Val: 7.25
+PH Raw ADC: 2938.00
+PH Voltage: 2367.6 mV
+pH Val: 7.20
+PH Raw ADC: 2881.00
+PH Voltage: 2321.7 mV
+pH Val: 7.56
+PH Raw ADC: 2903.00
+PH Voltage: 2339.4 mV
+pH Val: 7.42
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 3001.00
+PH Voltage: 2418.4 mV
+pH Val: 6.79
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2923.00
+PH Voltage: 2355.5 mV
+pH Val: 7.29
+PH Raw ADC: 2943.00
+PH Voltage: 2371.6 mV
+pH Val: 7.16
+PH Raw ADC: 2920.00
+PH Voltage: 2353.1 mV
+pH Val: 7.31
+PH Raw ADC: 2894.00
+PH Voltage: 2332.2 mV
+pH Val: 7.48
+PH Raw ADC: 2890.00
+PH Voltage: 2328.9 mV
+pH Val: 7.50
+PH Raw ADC: 2899.00
+PH Voltage: 2336.2 mV
+pH Val: 7.44
+PH Raw ADC: 2915.00
+PH Voltage: 2349.1 mV
+pH Val: 7.34
+PH Raw ADC: 2926.00
+PH Voltage: 2357.9 mV
+pH Val: 7.27
+PH Raw ADC: 2935.00
+PH Voltage: 2365.2 mV
+pH Val: 7.21
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
+PH Raw ADC: 2921.00
+PH Voltage: 2353.9 mV
+pH Val: 7.30
+PH Raw ADC: 2918.00
+PH Voltage: 2351.5 mV
+pH Val: 7.32
+PH Raw ADC: 2902.00
+PH Voltage: 2338.6 mV
+pH Val: 7.43
+PH Raw ADC: 2883.00
+PH Voltage: 2323.3 mV
+pH Val: 7.55
+PH Raw ADC: 2961.00
+PH Voltage: 2386.2 mV
+pH Val: 7.05
+PH Raw ADC: 2896.00
+PH Voltage: 2333.8 mV
+pH Val: 7.46
