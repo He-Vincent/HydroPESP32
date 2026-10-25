@@ -1,64 +1,63 @@
-#include "DFRobot_PH.h"
-#include <EEPROM.h>
 
-int phPin = 34;
+#include <Arduino.h>
 
-DFRobot_PH ph;
+const int motor1Pin3 = 19;
+const int motor1Pin4 = 18;
 
-float ph_act;
-float temperature = 21.5;
+const int tdsPin = 26;
+float temperature = 25.0;
+
+bool isTDSReached = false;
+
+
 
 void setup() {
     Serial.begin(9600);
+    pinMode(motor1Pin3, OUTPUT);
+    pinMode(motor1Pin4, OUTPUT);
+    // pinMode(enable1Pin, OUTPUT);
+    // digitalWrite(enable1Pin, HIGH);
 
-    analogReadResolution(12);
-    analogSetPinAttenuation(phPin, ADC_11db);
-    
-    EEPROM.begin(32);
 
-
-    ph.begin();
 }
 
-bool pollpHSensor() {
-
-    float analogValue = analogRead(phPin);
-
-    // Convert ESP32 12-bit ADC reading to millivolts
-    float voltage = analogValue * (3300.0 / 4095.0);
-
-    // Calculate pH using DFRobot library
-    ph_act = ph.readPH(voltage, temperature);
-
-    Serial.print("PH Raw ADC: ");
-    Serial.println(analogValue);
-
-    Serial.print("PH Voltage: ");
-    Serial.print(voltage, 1);
-    Serial.println(" mV");
-
-    Serial.print("pH Val: ");
-    Serial.println(ph_act, 2);
-
-    ph.calibration(voltage, temperature);
-
-
-    delay(100);
-
-    return true;
-}
 
 void loop() {
-    // float adc = analogRead(phPin);
-    // float voltage = adc * 3300.0 / 4095.0;
 
-    // Serial.print("ADC = ");
-    // Serial.print(adc);
 
-    // Serial.print("    Voltage = ");
-    // Serial.print(voltage, 3);
-    // Serial.println(" V");
-    pollpHSensor();
 
-    delay(1000);
+    float analogValue = analogRead(tdsPin);
+    float voltage = analogValue * (3.3 / 4095.0);
+    float ec = (133.42 * voltage * voltage * voltage
+                  - 255.86 * voltage * voltage
+                  + 857.39 * voltage);
+
+    float ecValue25 = ec / (1.0 + 0.02 * (temperature - 25.0));  // temperature compensation
+    float tdsValue = ecValue25 * 0.5; // TDS value in ppm, 0.5 being the TDS factor for General Hydroponics
+
+    Serial.println(tdsValue);
+    Serial.println(isTDSReached);
+
+    if (isTDSReached == false) {
+        Serial.println("here");
+        digitalWrite(motor1Pin3, HIGH);
+        digitalWrite(motor1Pin4, LOW);
+        delay(500);
+
+    }
+    
+    if (tdsValue > 200) {
+        //STOP PUMP
+        digitalWrite(motor1Pin3, LOW);
+        digitalWrite(motor1Pin4, LOW);
+        isTDSReached = true;
+
+    }
+
+    
+
+
+
+
+
 }
